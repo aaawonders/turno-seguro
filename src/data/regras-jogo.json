@@ -1,0 +1,23 @@
+{
+  "pontuacao": {
+    "decisaoCorreta": 10,
+    "riscoMarcado": 5,
+    "falsoAlarmeMarcado": -3,
+    "maximo": 145,
+    "estrelasTres": 125,
+    "estrelasDuas": 85
+  },
+  "inspecao": {
+    "duracaoSegundos": 120,
+    "tocarTiqueSegundos": 10,
+    "raioToqueMinimo": 16
+  },
+  "decisoes": {
+    "quantidadeEpi": 2,
+    "quantidadeCones": 2
+  },
+  "seta": {
+    "flutuacaoPixels": 2,
+    "deslocamentoY": 40
+  }
+}

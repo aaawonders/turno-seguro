@@ -1,0 +1,404 @@
+{
+ "type": "map",
+ "version": "1.10",
+ "tiledversion": "1.10.2",
+ "orientation": "orthogonal",
+ "renderorder": "right-down",
+ "infinite": false,
+ "width": 1,
+ "height": 1,
+ "tilewidth": 503,
+ "tileheight": 721,
+ "nextlayerid": 5,
+ "nextobjectid": 16,
+ "layers": [
+  {
+   "id": 1,
+   "name": "caminhavel",
+   "type": "objectgroup",
+   "visible": true,
+   "opacity": 1,
+   "x": 0,
+   "y": 0,
+   "draworder": "topdown",
+   "objects": [
+    {
+     "id": 1,
+     "name": "",
+     "type": "",
+     "x": 0,
+     "y": 0,
+     "rotation": 0,
+     "visible": true,
+     "width": 0,
+     "height": 0,
+     "polygon": [
+      {
+       "x": 19,
+       "y": 625
+      },
+      {
+       "x": 332,
+       "y": 172
+      },
+      {
+       "x": 492,
+       "y": 182
+      },
+      {
+       "x": 492,
+       "y": 195
+      },
+      {
+       "x": 356,
+       "y": 200
+      },
+      {
+       "x": 192,
+       "y": 497
+      },
+      {
+       "x": 186,
+       "y": 560
+      },
+      {
+       "x": 150,
+       "y": 640
+      },
+      {
+       "x": 23,
+       "y": 645
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "name": "colisao",
+   "type": "objectgroup",
+   "visible": true,
+   "opacity": 1,
+   "x": 0,
+   "y": 0,
+   "draworder": "topdown",
+   "objects": [
+    {
+     "id": 2,
+     "name": "",
+     "type": "",
+     "x": 83,
+     "y": 512,
+     "width": 36,
+     "height": 16,
+     "rotation": 0,
+     "visible": true
+    },
+    {
+     "id": 3,
+     "name": "",
+     "type": "",
+     "x": 115,
+     "y": 461,
+     "width": 31,
+     "height": 12,
+     "rotation": 0,
+     "visible": true
+    },
+    {
+     "id": 4,
+     "name": "",
+     "type": "",
+     "x": 140,
+     "y": 618,
+     "width": 24,
+     "height": 14,
+     "rotation": 0,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name": "oclusores",
+   "type": "objectgroup",
+   "visible": true,
+   "opacity": 1,
+   "x": 0,
+   "y": 0,
+   "draworder": "topdown",
+   "objects": [
+    {
+     "id": 5,
+     "name": "placa",
+     "type": "",
+     "x": 130,
+     "y": 485,
+     "width": 57,
+     "height": 158,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "baseY",
+       "type": "int",
+       "value": 632
+      },
+      {
+       "name": "imagem",
+       "type": "string",
+       "value": "oclusores/placa.png"
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "name": "grade-1",
+     "type": "",
+     "x": 192,
+     "y": 335,
+     "width": 65,
+     "height": 174,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "baseY",
+       "type": "int",
+       "value": 457
+      },
+      {
+       "name": "imagem",
+       "type": "string",
+       "value": "oclusores/grade-1.png"
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "name": "grade-2",
+     "type": "",
+     "x": 254,
+     "y": 236,
+     "width": 59,
+     "height": 163,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "baseY",
+       "type": "int",
+       "value": 353
+      },
+      {
+       "name": "imagem",
+       "type": "string",
+       "value": "oclusores/grade-2.png"
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "name": "grade-3",
+     "type": "",
+     "x": 310,
+     "y": 138,
+     "width": 59,
+     "height": 163,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "baseY",
+       "type": "int",
+       "value": 255
+      },
+      {
+       "name": "imagem",
+       "type": "string",
+       "value": "oclusores/grade-3.png"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name": "pontos",
+   "type": "objectgroup",
+   "visible": true,
+   "opacity": 1,
+   "x": 0,
+   "y": 0,
+   "draworder": "topdown",
+   "objects": [
+    {
+     "id": 9,
+     "name": "chegada",
+     "type": "",
+     "x": 62,
+     "y": 606,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "chegada"
+      }
+     ]
+    },
+    {
+     "id": 10,
+     "name": "diego",
+     "type": "",
+     "x": 247,
+     "y": 330,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "npc"
+      }
+     ]
+    },
+    {
+     "id": 11,
+     "name": "quadro-sipat",
+     "type": "",
+     "x": 285,
+     "y": 266,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "interacao"
+      },
+      {
+       "name": "raio",
+       "type": "int",
+       "value": 34
+      }
+     ]
+    },
+    {
+     "id": 12,
+     "name": "bebedouro",
+     "type": "",
+     "x": 110,
+     "y": 528,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "pensamento"
+      },
+      {
+       "name": "raio",
+       "type": "int",
+       "value": 30
+      }
+     ]
+    },
+    {
+     "id": 13,
+     "name": "ponto-encontro",
+     "type": "",
+     "x": 96,
+     "y": 478,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "pensamento"
+      },
+      {
+       "name": "raio",
+       "type": "int",
+       "value": 30
+      }
+     ]
+    },
+    {
+     "id": 14,
+     "name": "almoxarifado",
+     "type": "",
+     "x": 192,
+     "y": 388,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "interacao"
+      },
+      {
+       "name": "raio",
+       "type": "int",
+       "value": 28
+      }
+     ]
+    },
+    {
+     "id": 15,
+     "name": "saida",
+     "type": "",
+     "x": 484,
+     "y": 188,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "saida"
+      },
+      {
+       "name": "raio",
+       "type": "int",
+       "value": 20
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "tilesets": [],
+ "properties": [
+  {
+   "name": "imagem",
+   "type": "string",
+   "value": "fundo.png"
+  }
+ ]
+}

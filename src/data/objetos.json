@@ -1,0 +1,56 @@
+{
+  "riscos": {
+    "oleo-pingando": {
+      "escala": 1,
+      "largura": 64,
+      "altura": 64
+    },
+    "caixas-extintor": {
+      "escala": 1,
+      "largura": 64,
+      "altura": 64
+    },
+    "operador-sem-protetor": {
+      "escala": 2,
+      "largura": 128,
+      "altura": 128
+    },
+    "pedestre-celular": {
+      "escala": 2,
+      "largura": 128,
+      "altura": 128
+    },
+    "cabo": {
+      "escala": 1,
+      "largura": 96,
+      "altura": 32
+    },
+    "painel-aberto": {
+      "escala": 1,
+      "largura": 64,
+      "altura": 64
+    },
+    "pallets-saida": {
+      "escala": 1,
+      "largura": 64,
+      "altura": 64
+    }
+  },
+  "cenario": {
+    "poca-oleo": {
+      "escala": 2,
+      "largura": 128,
+      "altura": 64
+    },
+    "cone": {
+      "escala": 2,
+      "largura": 64,
+      "altura": 64
+    },
+    "fita-zebrada": {
+      "escala": 2,
+      "largura": 128,
+      "altura": 64
+    }
+  }
+}

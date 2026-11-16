@@ -1,0 +1,315 @@
+{
+ "type": "map",
+ "version": "1.10",
+ "tiledversion": "1.10.2",
+ "orientation": "orthogonal",
+ "renderorder": "right-down",
+ "infinite": false,
+ "width": 1,
+ "height": 1,
+ "tilewidth": 453,
+ "tileheight": 460,
+ "nextlayerid": 5,
+ "nextobjectid": 11,
+ "layers": [
+  {
+   "id": 1,
+   "name": "caminhavel",
+   "type": "objectgroup",
+   "visible": true,
+   "opacity": 1,
+   "x": 0,
+   "y": 0,
+   "draworder": "topdown",
+   "objects": [
+    {
+     "id": 1,
+     "name": "",
+     "type": "",
+     "x": 0,
+     "y": 0,
+     "rotation": 0,
+     "visible": true,
+     "width": 0,
+     "height": 0,
+     "polygon": [
+      {
+       "x": 20,
+       "y": 314
+      },
+      {
+       "x": 95,
+       "y": 342
+      },
+      {
+       "x": 152,
+       "y": 314
+      },
+      {
+       "x": 152,
+       "y": 256
+      },
+      {
+       "x": 178,
+       "y": 240
+      },
+      {
+       "x": 272,
+       "y": 240
+      },
+      {
+       "x": 296,
+       "y": 252
+      },
+      {
+       "x": 357,
+       "y": 284
+      },
+      {
+       "x": 378,
+       "y": 270
+      },
+      {
+       "x": 400,
+       "y": 282
+      },
+      {
+       "x": 446,
+       "y": 305
+      },
+      {
+       "x": 225,
+       "y": 445
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "name": "colisao",
+   "type": "objectgroup",
+   "visible": true,
+   "opacity": 1,
+   "x": 0,
+   "y": 0,
+   "draworder": "topdown",
+   "objects": [
+    {
+     "id": 7,
+     "name": "cama",
+     "type": "",
+     "x": 0,
+     "y": 0,
+     "rotation": 0,
+     "visible": true,
+     "width": 0,
+     "height": 0,
+     "polygon": [
+      { "x": 12, "y": 259 },
+      { "x": 83, "y": 221 },
+      { "x": 151, "y": 254 },
+      { "x": 85, "y": 294 }
+     ]
+    },
+    {
+     "id": 8,
+     "name": "criado-mudo",
+     "type": "",
+     "x": 0,
+     "y": 0,
+     "rotation": 0,
+     "visible": true,
+     "width": 0,
+     "height": 0,
+     "polygon": [
+      { "x": 88, "y": 236 },
+      { "x": 116, "y": 220 },
+      { "x": 148, "y": 236 },
+      { "x": 117, "y": 255 }
+     ]
+    },
+    {
+     "id": 9,
+     "name": "escrivaninha",
+     "type": "",
+     "x": 0,
+     "y": 0,
+     "rotation": 0,
+     "visible": true,
+     "width": 0,
+     "height": 0,
+     "polygon": [
+      { "x": 177, "y": 217 },
+      { "x": 222, "y": 192 },
+      { "x": 283, "y": 222 },
+      { "x": 232, "y": 255 }
+     ]
+    },
+    {
+     "id": 10,
+     "name": "guarda-roupa",
+     "type": "",
+     "x": 0,
+     "y": 0,
+     "rotation": 0,
+     "visible": true,
+     "width": 0,
+     "height": 0,
+     "polygon": [
+      { "x": 294, "y": 248 },
+      { "x": 341, "y": 225 },
+      { "x": 387, "y": 249 },
+      { "x": 339, "y": 280 }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name": "oclusores",
+   "type": "objectgroup",
+   "visible": true,
+   "opacity": 1,
+   "x": 0,
+   "y": 0,
+   "draworder": "topdown",
+   "objects": []
+  },
+  {
+   "id": 4,
+   "name": "pontos",
+   "type": "objectgroup",
+   "visible": true,
+   "opacity": 1,
+   "x": 0,
+   "y": 0,
+   "draworder": "topdown",
+   "objects": [
+    {
+     "id": 2,
+     "name": "chegada",
+     "type": "",
+     "x": 180,
+     "y": 275,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "chegada"
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "name": "despertador",
+     "type": "",
+     "x": 180,
+     "y": 275,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "pensamento"
+      },
+      {
+       "name": "raio",
+       "type": "int",
+       "value": 40
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "name": "guarda-roupa",
+     "type": "",
+     "x": 318,
+     "y": 282,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "interacao"
+      },
+      {
+       "name": "raio",
+       "type": "int",
+       "value": 30
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "name": "escrivaninha",
+     "type": "",
+     "x": 222,
+     "y": 250,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "interacao"
+      },
+      {
+       "name": "raio",
+       "type": "int",
+       "value": 30
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "name": "porta",
+     "type": "",
+     "x": 405,
+     "y": 292,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "saida"
+      },
+      {
+       "name": "raio",
+       "type": "int",
+       "value": 24
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "tilesets": [],
+ "properties": [
+  {
+   "name": "imagem",
+   "type": "string",
+   "value": "fundo.png"
+  }
+ ]
+}

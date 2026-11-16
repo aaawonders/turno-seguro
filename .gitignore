@@ -1,0 +1,5 @@
+node_modules/
+dist/
+arte-original/
+.DS_Store
+*.local

@@ -1,0 +1,566 @@
+{
+ "type": "map",
+ "version": "1.10",
+ "tiledversion": "1.10.2",
+ "orientation": "orthogonal",
+ "renderorder": "right-down",
+ "infinite": false,
+ "width": 1,
+ "height": 1,
+ "tilewidth": 464,
+ "tileheight": 538,
+ "nextlayerid": 5,
+ "nextobjectid": 19,
+ "layers": [
+  {
+   "id": 1,
+   "name": "caminhavel",
+   "type": "objectgroup",
+   "visible": true,
+   "opacity": 1,
+   "x": 0,
+   "y": 0,
+   "draworder": "topdown",
+   "objects": [
+    {
+     "id": 1,
+     "name": "",
+     "type": "",
+     "x": 0,
+     "y": 0,
+     "rotation": 0,
+     "visible": true,
+     "width": 0,
+     "height": 0,
+     "polygon": [
+      {
+       "x": 24,
+       "y": 300
+      },
+      {
+       "x": 142,
+       "y": 200
+      },
+      {
+       "x": 300,
+       "y": 245
+      },
+      {
+       "x": 450,
+       "y": 272
+      },
+      {
+       "x": 372,
+       "y": 402
+      },
+      {
+       "x": 252,
+       "y": 386
+      },
+      {
+       "x": 252,
+       "y": 442
+      },
+      {
+       "x": 154,
+       "y": 442
+      },
+      {
+       "x": 154,
+       "y": 370
+      },
+      {
+       "x": 24,
+       "y": 348
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "name": "colisao",
+   "type": "objectgroup",
+   "visible": true,
+   "opacity": 1,
+   "x": 0,
+   "y": 0,
+   "draworder": "topdown",
+   "objects": [
+    {
+     "id": 2,
+     "name": "",
+     "type": "",
+     "x": 0,
+     "y": 0,
+     "rotation": 0,
+     "visible": true,
+     "width": 0,
+     "height": 0,
+     "polygon": [
+      {
+       "x": 23,
+       "y": 351
+      },
+      {
+       "x": 149,
+       "y": 373
+      },
+      {
+       "x": 151,
+       "y": 363
+      },
+      {
+       "x": 25,
+       "y": 341
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "name": "",
+     "type": "",
+     "x": 0,
+     "y": 0,
+     "rotation": 0,
+     "visible": true,
+     "width": 0,
+     "height": 0,
+     "polygon": [
+      {
+       "x": 151,
+       "y": 373
+      },
+      {
+       "x": 199,
+       "y": 363
+      },
+      {
+       "x": 197,
+       "y": 353
+      },
+      {
+       "x": 149,
+       "y": 363
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "name": "catraca-1",
+     "type": "",
+     "x": 0,
+     "y": 0,
+     "rotation": 0,
+     "visible": true,
+     "width": 0,
+     "height": 0,
+     "polygon": [
+      {
+       "x": 202,
+       "y": 361
+      },
+      {
+       "x": 234,
+       "y": 317
+      },
+      {
+       "x": 226,
+       "y": 311
+      },
+      {
+       "x": 194,
+       "y": 355
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "name": "catraca-2",
+     "type": "",
+     "x": 0,
+     "y": 0,
+     "rotation": 0,
+     "visible": true,
+     "width": 0,
+     "height": 0,
+     "polygon": [
+      {
+       "x": 234,
+       "y": 317
+      },
+      {
+       "x": 265,
+       "y": 277
+      },
+      {
+       "x": 257,
+       "y": 271
+      },
+      {
+       "x": 226,
+       "y": 311
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "name": "catraca-3",
+     "type": "",
+     "x": 0,
+     "y": 0,
+     "rotation": 0,
+     "visible": true,
+     "width": 0,
+     "height": 0,
+     "polygon": [
+      {
+       "x": 265,
+       "y": 277
+      },
+      {
+       "x": 286,
+       "y": 253
+      },
+      {
+       "x": 278,
+       "y": 247
+      },
+      {
+       "x": 257,
+       "y": 271
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "name": "",
+     "type": "",
+     "x": 0,
+     "y": 0,
+     "rotation": 0,
+     "visible": true,
+     "width": 0,
+     "height": 0,
+     "polygon": [
+      {
+       "x": 283,
+       "y": 255
+      },
+      {
+       "x": 301,
+       "y": 251
+      },
+      {
+       "x": 299,
+       "y": 241
+      },
+      {
+       "x": 281,
+       "y": 245
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "name": "",
+     "type": "",
+     "x": 0,
+     "y": 0,
+     "rotation": 0,
+     "visible": true,
+     "width": 0,
+     "height": 0,
+     "polygon": [
+      {
+       "x": 334,
+       "y": 330
+      },
+      {
+       "x": 380,
+       "y": 362
+      },
+      {
+       "x": 417,
+       "y": 330
+      },
+      {
+       "x": 417,
+       "y": 288
+      },
+      {
+       "x": 372,
+       "y": 274
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name": "oclusores",
+   "type": "objectgroup",
+   "visible": true,
+   "opacity": 1,
+   "x": 0,
+   "y": 0,
+   "draworder": "topdown",
+   "objects": [
+    {
+     "id": 9,
+     "name": "catraca-1",
+     "type": "",
+     "x": 152,
+     "y": 290,
+     "width": 68,
+     "height": 80,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "baseY",
+       "type": "int",
+       "value": 360
+      },
+      {
+       "name": "imagem",
+       "type": "string",
+       "value": "oclusores/catraca-1.png"
+      }
+     ]
+    },
+    {
+     "id": 10,
+     "name": "catraca-2",
+     "type": "",
+     "x": 186,
+     "y": 249,
+     "width": 63,
+     "height": 77,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "baseY",
+       "type": "int",
+       "value": 316
+      },
+      {
+       "name": "imagem",
+       "type": "string",
+       "value": "oclusores/catraca-2.png"
+      }
+     ]
+    },
+    {
+     "id": 11,
+     "name": "catraca-3",
+     "type": "",
+     "x": 216,
+     "y": 207,
+     "width": 64,
+     "height": 79,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "baseY",
+       "type": "int",
+       "value": 276
+      },
+      {
+       "name": "imagem",
+       "type": "string",
+       "value": "oclusores/catraca-3.png"
+      }
+     ]
+    },
+    {
+     "id": 12,
+     "name": "muro-esquerdo",
+     "type": "",
+     "x": 22,
+     "y": 295,
+     "width": 133,
+     "height": 140,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "baseY",
+       "type": "int",
+       "value": 380
+      },
+      {
+       "name": "imagem",
+       "type": "string",
+       "value": "oclusores/muro-esquerdo.png"
+      }
+     ]
+    },
+    {
+     "id": 13,
+     "name": "muro-direito",
+     "type": "",
+     "x": 249,
+     "y": 382,
+     "width": 126,
+     "height": 87,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "baseY",
+       "type": "int",
+       "value": 410
+      },
+      {
+       "name": "imagem",
+       "type": "string",
+       "value": "oclusores/muro-direito.png"
+      }
+     ]
+    },
+    {
+     "id": 14,
+     "name": "canteiro",
+     "type": "",
+     "x": 334,
+     "y": 270,
+     "width": 84,
+     "height": 98,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "baseY",
+       "type": "int",
+       "value": 358
+      },
+      {
+       "name": "imagem",
+       "type": "string",
+       "value": "oclusores/canteiro.png"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name": "pontos",
+   "type": "objectgroup",
+   "visible": true,
+   "opacity": 1,
+   "x": 0,
+   "y": 0,
+   "draworder": "topdown",
+   "objects": [
+    {
+     "id": 15,
+     "name": "chegada",
+     "type": "",
+     "x": 200,
+     "y": 425,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "chegada"
+      }
+     ]
+    },
+    {
+     "id": 16,
+     "name": "speaker",
+     "type": "",
+     "x": 328,
+     "y": 258,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "interacao"
+      },
+      {
+       "name": "raio",
+       "type": "int",
+       "value": 30
+      }
+     ]
+    },
+    {
+     "id": 17,
+     "name": "catraca",
+     "type": "",
+     "x": 232,
+     "y": 300,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "interacao"
+      },
+      {
+       "name": "raio",
+       "type": "int",
+       "value": 48
+      },
+      {
+       "name": "bloqueado",
+       "type": "bool",
+       "value": true
+      }
+     ]
+    },
+    {
+     "id": 18,
+     "name": "saida",
+     "type": "",
+     "x": 80,
+     "y": 240,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "saida"
+      },
+      {
+       "name": "raio",
+       "type": "int",
+       "value": 22
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "tilesets": [],
+ "properties": [
+  {
+   "name": "imagem",
+   "type": "string",
+   "value": "fundo.png"
+  }
+ ]
+}

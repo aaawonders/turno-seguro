@@ -1,0 +1,10 @@
+{
+  "aConfirmar": true,
+  "mes": 11,
+  "dias": [
+    { "dia": 16, "semana": "segunda", "tema": "[abertura + tema]", "horario": "[horário]", "local": "[local]", "aConfirmar": true },
+    { "dia": 17, "semana": "terça", "tema": "[tema]", "horario": "[horário]", "local": "[local]", "aConfirmar": true },
+    { "dia": 18, "semana": "quarta", "tema": "[tema]", "horario": "[horário]", "local": "[local]", "aConfirmar": true },
+    { "dia": 19, "semana": "quinta", "tema": "[tema + encerramento]", "horario": "[horário]", "local": "[local]", "aConfirmar": true }
+  ]
+}

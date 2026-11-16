@@ -1,0 +1,336 @@
+{
+  "capitulos": {
+    "1": {
+      "area": "quarto",
+      "mapas": {
+        "quarto": {
+          "aoEntrar": [
+            { "tipo": "se", "flag": "uniforme", "passos": [
+              { "tipo": "se", "flag": "mensagem-renata", "passos": [
+                { "tipo": "objetivo", "ponto": "porta", "texto": "Saia para o trabalho" }
+              ], "senao": [
+                { "tipo": "objetivo", "ponto": "escrivaninha", "texto": "Pegue o crachá e o celular na escrivaninha" }
+              ] }
+            ], "senao": [
+              { "tipo": "objetivo", "ponto": "despertador" },
+              { "tipo": "acao", "acao": "som", "som": "despertador" },
+              { "tipo": "fala", "personagem": "{nome}", "expressao": "neutra", "pensando": true, "texto": "5h30… Primeiro dia no turno da manhã. Bora!" },
+              { "tipo": "objetivo", "ponto": "guarda-roupa", "texto": "Troque de roupa no guarda-roupa" },
+              { "tipo": "acao", "acao": "tutorial" }
+            ] }
+          ],
+          "aoInteragir:guarda-roupa": [
+            { "tipo": "acao", "acao": "fade", "direcao": "escurecer" },
+            { "tipo": "acao", "acao": "som", "som": "trocar-roupa" },
+            { "tipo": "trocarSprite", "sprite": "uniforme" },
+            { "tipo": "flag", "nome": "uniforme" },
+            { "tipo": "liberar", "ponto": "escrivaninha" },
+            { "tipo": "acao", "acao": "fade", "direcao": "clarear" },
+            { "tipo": "objetivo", "ponto": "escrivaninha", "texto": "Pegue o crachá e o celular na escrivaninha" },
+            { "tipo": "fala", "personagem": "{nome}", "expressao": "feliz", "pensando": true, "texto": "Uniforme ok. Agora o crachá e o celular." }
+          ],
+          "aoInteragir:escrivaninha": [
+            { "tipo": "se", "flag": "uniforme", "passos": [
+              { "tipo": "acao", "acao": "som", "som": "item" },
+              { "tipo": "mensagem", "remetente": "Renata", "texto": "Bom dia! O Jonas se machucou ontem na linha. Ele está bem, mas hoje você assume o posto dele. Passa no vestiário que o Marcos te ajuda com os EPIs.", "respostas": ["Pode deixar, Renata!", "Nossa! Ele está bem mesmo?"], "exigirAbertura": true },
+              { "tipo": "fala", "personagem": "{nome}", "expressao": "preocupada", "pensando": true, "texto": "O Jonas se machucou? O que será que aconteceu…" },
+              { "tipo": "mensagem", "remetente": "Renata", "texto": "Está sim, levou uns pontos. Te conto quando você chegar.", "exigirAbertura": true },
+              { "tipo": "flag", "nome": "mensagem-renata" },
+              { "tipo": "bloquear", "ponto": "escrivaninha" },
+              { "tipo": "liberar", "ponto": "porta" },
+              { "tipo": "objetivo", "ponto": "porta", "texto": "Saia para o trabalho" }
+            ], "senao": [] }
+          ],
+          "aoSair": [
+            { "tipo": "se", "flag": "mensagem-renata", "passos": [
+              { "tipo": "fala", "personagem": "{nome}", "expressao": "neutra", "pensando": true, "texto": "Assumir um posto logo no primeiro dia… Quero entender direitinho o que aconteceu." },
+              { "tipo": "irPara", "capitulo": 2, "area": "portaria" }
+            ], "senao": [] }
+          ]
+        }
+      }
+    },
+    "2": {
+      "area": "portaria",
+      "mapas": {
+        "portaria": {
+          "aoEntrar": [ { "tipo": "objetivo", "ponto": "speaker", "texto": "Fale com o Sr. Antônio na guarita" } ],
+          "aoInteragir:speaker": [
+            { "tipo": "fala", "personagem": "Sr. Antônio", "expressao": "feliz", "texto": "Bom dia! Você é quem vai cobrir o Jonas hoje, né? A Renata avisou." },
+            { "tipo": "fala", "personagem": "Sr. Antônio", "expressao": "seria", "texto": "Foi feio ontem, viu. Mas ele está bem, ainda bem." },
+            { "tipo": "fala", "personagem": "Sr. Antônio", "expressao": "neutra", "texto": "Passa o crachá na catraca e vai direto pro vestiário. O Marcos está te esperando." },
+            { "tipo": "liberar", "ponto": "catraca" },
+            { "tipo": "flag", "nome": "porteiro-liberou" },
+            { "tipo": "objetivo", "ponto": "catraca", "texto": "Passe pela catraca" }
+          ],
+          "aoInteragir:catraca": [
+            { "tipo": "acao", "acao": "som", "som": "catraca" },
+            { "tipo": "liberar", "ponto": "saida" },
+            { "tipo": "flag", "nome": "portaria-passou" },
+            { "tipo": "objetivo", "ponto": "saida", "texto": "Siga para a recepção" }
+          ],
+          "aoSair": [ { "tipo": "irPara", "capitulo": 2, "area": "recepcao" } ]
+        },
+        "recepcao": {
+          "aoEntrar": [ { "tipo": "objetivo", "ponto": "catraca-facial", "texto": "Passe pela catraca de reconhecimento facial" } ],
+          "aoPassar:banner-sipat": [
+            { "tipo": "fala", "personagem": "{nome}", "expressao": "neutra", "pensando": true, "texto": "Banner da SIPAT… semana que vem já? Quero ver a programação." }
+          ],
+          "aoInteragir:catraca-facial": [
+            { "tipo": "acao", "acao": "som", "som": "catraca" },
+            { "tipo": "liberar", "ponto": "catraca-facial" },
+            { "tipo": "flag", "nome": "catraca-facial" },
+            { "tipo": "objetivo", "ponto": "saida", "texto": "Vá para o corredor dos vestiários" }
+          ],
+          "aoSair": [
+            { "tipo": "se", "flag": "catraca-facial", "passos": [
+              { "tipo": "fala", "personagem": "{nome}", "expressao": "neutra", "pensando": true, "texto": "Vestiário à direita… vamos lá." },
+              { "tipo": "irPara", "capitulo": 3, "area": "vestiario" }
+            ], "senao": [] }
+          ]
+        }
+      }
+    },
+    "3": {
+      "area": "vestiario",
+      "mapas": {
+        "vestiario": {
+          "aoEntrar": [ { "tipo": "objetivo", "ponto": "porta-vestiario", "texto": "Guarde sua mochila no vestiário" } ],
+          "aoInteragir:porta-vestiario": [
+            { "tipo": "acao", "acao": "fade", "direcao": "escurecer" },
+            { "tipo": "acao", "acao": "som", "som": "trocar-roupa" },
+            { "tipo": "flag", "nome": "mochila-guardada" },
+            { "tipo": "liberar", "ponto": "armario-epi" },
+            { "tipo": "mostrarNpc", "nome": "marcos" },
+            { "tipo": "acao", "acao": "fade", "direcao": "clarear" },
+            { "tipo": "objetivo", "ponto": "marcos", "texto": "Fale com o Marcos sobre os EPIs" }
+          ],
+          "aoInteragir:armario-epi": [
+            { "tipo": "se", "flag": "mochila-guardada", "passos": [
+              { "tipo": "fala", "personagem": "Marcos", "expressao": "neutra", "texto": "Opa, {nome}! Então é você que vai pro posto do Jonas. Ali é colado nas máquinas de usinagem: o barulho passa fácil de 85 dB." },
+              { "tipo": "fala", "personagem": "Marcos", "expressao": "seria", "texto": "Sem proteção, o ouvido vai perdendo a audição aos poucos. E não volta. Pega no armário o que você precisa pra lá." },
+              { "tipo": "decisao", "id": "D1" },
+              { "tipo": "fala", "personagem": "Marcos", "expressao": "feliz", "texto": "Isso. Vamos lá." },
+              { "tipo": "fala", "personagem": "Marcos", "expressao": "neutra", "texto": "Coloca o plug aí que eu quero ver." },
+              { "tipo": "decisao", "id": "D2" },
+              { "tipo": "liberar", "ponto": "estante-caixas" },
+              { "tipo": "fala", "personagem": "Marcos", "expressao": "neutra", "texto": "Hum… beleza." },
+              { "tipo": "objetivo", "ponto": "estante-caixas", "texto": "Pegue a caixa de protetor certa na estante" }
+            ], "senao": [] }
+          ],
+          "aoInteragir:estante-caixas": [
+            { "tipo": "se", "resposta": "D2", "passos": [
+              { "tipo": "fala", "personagem": "Marcos", "expressao": "neutra", "texto": "Pega uma caixa de protetor pra deixar no posto." },
+              { "tipo": "decisao", "id": "D3" },
+              { "tipo": "fala", "personagem": "Marcos", "expressao": "neutra", "texto": "Tá, leva essa." },
+              { "tipo": "fala", "personagem": "Marcos", "expressao": "feliz", "texto": "Pronto. A Renata vai te encontrar no corredor, perto de onde aconteceu." },
+              { "tipo": "liberar", "ponto": "catraca-fabrica" },
+              { "tipo": "objetivo", "ponto": "catraca-fabrica", "texto": "Entre na fábrica pela catraca" }
+            ], "senao": [] }
+          ],
+          "aoInteragir:porta-cozinha": [
+            { "tipo": "fala", "personagem": "{nome}", "expressao": "neutra", "pensando": true, "texto": "Ainda não é hora do almoço." }
+          ],
+          "aoPassar:quadro-rh": [
+            { "tipo": "fala", "personagem": "{nome}", "expressao": "neutra", "pensando": true, "texto": "Quadro de avisos do RH." }
+          ],
+          "aoSair": [
+            { "tipo": "fala", "personagem": "{nome}", "expressao": "preocupada", "pensando": true, "texto": "Perto de onde aconteceu… então vou passar pelo local." },
+            { "tipo": "irPara", "capitulo": 4, "area": "corredor-a" }
+          ]
+        }
+      }
+    },
+    "4": {
+      "area": "corredor-a",
+      "mapas": {
+        "corredor-a": {
+          "aoEntrar": [
+            { "tipo": "objetivo", "ponto": "diego", "texto": "Fale com o Diego, da CIPA" },
+            { "tipo": "mostrarNpc", "nome": "diego" }
+          ],
+          "aoInteragir:diego": [
+            { "tipo": "se", "flag": "diego-apresentou-sipat", "passos": [], "senao": [
+              { "tipo": "fala", "personagem": "Diego", "expressao": "feliz", "texto": "E aí! Você é {nome}, que vai cobrir o Jonas? Sou o Diego, da CIPA." },
+              { "tipo": "fala", "personagem": "Diego", "expressao": "neutra", "texto": "Caminho aqui dentro é só pela faixa de pedestre, tá? Empilhadeira não avisa." },
+              { "tipo": "fala", "personagem": "Diego", "expressao": "feliz", "texto": "Ah, e essa semana tem SIPAT! A Semana Interna de Prevenção de Acidentes do Trabalho, que a CIPA organiza todo ano com o SESMT. O foco deste ano é saúde mental: estresse, pressão e pedir ajuda sem vergonha." },
+              { "tipo": "fala", "personagem": "Diego", "expressao": "neutra", "texto": "A programação está no quadro ali. Dá uma olhada." },
+              { "tipo": "flag", "nome": "diego-apresentou-sipat" },
+              { "tipo": "objetivo", "ponto": "quadro-sipat", "texto": "Veja a programação da SIPAT no quadro" }
+            ] }
+          ],
+          "aoInteragir:quadro-sipat": [
+            { "tipo": "acao", "acao": "calendario" },
+            { "tipo": "flag", "nome": "calendario-aberto" },
+            { "tipo": "liberar", "ponto": "saida" },
+            { "tipo": "objetivo", "ponto": "saida", "texto": "Siga pela faixa de pedestre até a Renata" }
+          ],
+          "aoPassar:bebedouro": [
+            { "tipo": "fala", "personagem": "{nome}", "expressao": "neutra", "pensando": true, "texto": "Vou aproveitar pra beber água." }
+          ],
+          "aoPassar:ponto-encontro": [
+            { "tipo": "fala", "personagem": "{nome}", "expressao": "neutra", "pensando": true, "texto": "Ponto de encontro. Bom saber onde fica." }
+          ],
+          "aoInteragir:almoxarifado": [
+            { "tipo": "fala", "personagem": "{nome}", "expressao": "neutra", "pensando": true, "texto": "Almoxarifado… é aqui que repõe EPI." }
+          ],
+          "aoTentarSair": [
+            { "tipo": "se", "flag": "calendario-aberto", "passos": [
+              { "tipo": "liberar", "ponto": "saida" }
+            ], "senao": [
+              { "tipo": "se", "flag": "lembrete-calendario", "passos": [
+                { "tipo": "liberar", "ponto": "saida" }
+              ], "senao": [
+                { "tipo": "fala", "personagem": "Diego", "expressao": "neutra", "texto": "Não esquece de olhar a programação, hein!" },
+                { "tipo": "flag", "nome": "lembrete-calendario" }
+              ] }
+            ] }
+          ],
+          "aoSair": [
+            { "tipo": "fala", "personagem": "Diego", "expressao": "neutra", "texto": "A Renata está te esperando lá na frente, no fim da faixa. Ela precisa de uma ajuda." },
+            { "tipo": "irPara", "capitulo": 4, "area": "corredor-b" }
+          ]
+        },
+        "corredor-b": {
+          "aoEntrar": [ { "tipo": "objetivo", "ponto": "renata", "texto": "Fale com a Renata" } ],
+          "aoInteragir:renata": [
+            { "tipo": "se", "flag": "d4-feita", "passos": [], "senao": [
+              { "tipo": "mostrarNpc", "nome": "renata" },
+              { "tipo": "fala", "personagem": "Renata", "expressao": "preocupada", "texto": "Oi, {nome}! Chegou na hora. Me ajuda a terminar de isolar aqui? Ainda tem óleo no chão." },
+              { "tipo": "objetivo", "texto": "Isole a área do vazamento com os cones" },
+              { "tipo": "acao", "acao": "cones" },
+              { "tipo": "fala", "personagem": "Renata", "expressao": "neutra", "texto": "Obrigada." },
+              { "tipo": "flag", "nome": "d4-feita" },
+              { "tipo": "fala", "personagem": "Renata", "expressao": "preocupada", "texto": "Foi aqui. Vazou óleo daquela máquina do posto do Jonas. Ele escorregou, caiu e cortou o braço na quina de um carrinho." },
+              { "tipo": "fala", "personagem": "Renata", "expressao": "seria", "texto": "O Caio chegou primeiro. Correu pelo óleo, quase caiu junto, levantou o Jonas pelo braço e enrolou o corte com a estopa suja da máquina." },
+              { "tipo": "fala", "personagem": "Renata", "expressao": "seria", "texto": "Ia levar ele andando até o ambulatório, sem chamar ninguém." },
+              { "tipo": "mostrarNpc", "nome": "caio" },
+              { "tipo": "flag", "nome": "caio-apareceu" },
+              { "tipo": "liberar", "ponto": "caio" },
+              { "tipo": "moverNpc", "nome": "caio", "ponto": "caio" },
+              { "tipo": "objetivo", "ponto": "caio", "texto": "Oriente o Caio" },
+              { "tipo": "fala", "personagem": "Caio", "expressao": "envergonhado", "texto": "Eu só queria ajudar… Travei e fiz o que veio na cabeça." },
+              { "tipo": "fala", "personagem": "Renata", "expressao": "neutra", "texto": "Ninguém está te culpando, Caio. {nome}, você acabou de passar pela integração, está com tudo fresco. Explica pra ele como deveria ter sido?" }
+            ] }
+          ],
+          "aoInteragir:caio": [
+            { "tipo": "se", "flag": "d5-a-d9-feitas", "passos": [], "senao": [
+              { "tipo": "fala", "personagem": "Caio", "expressao": "neutra", "texto": "Quando eu vi o Jonas no chão, o que eu devia ter feito primeiro?" },
+              { "tipo": "decisao", "id": "D5" },
+              { "tipo": "reacaoDecisao", "id": "D5", "personagem": "Caio" },
+              { "tipo": "fala", "personagem": "Caio", "expressao": "neutra", "texto": "E pra chamar a brigada? Eu nem sei como." },
+              { "tipo": "decisao", "id": "D6" },
+              { "tipo": "fala", "personagem": "Caio", "expressao": "neutra", "texto": "Anotado." },
+              { "tipo": "fala", "personagem": "Caio", "expressao": "preocupada", "texto": "E o sangue? Eu peguei o que tinha na mão." },
+              { "tipo": "decisao", "id": "D7" },
+              { "tipo": "fala", "personagem": "Caio", "expressao": "neutra", "texto": "Entendi." },
+              { "tipo": "fala", "personagem": "Caio", "expressao": "neutra", "texto": "E levar ele andando até o ambulatório, foi errado?" },
+              { "tipo": "decisao", "id": "D8" },
+              { "tipo": "reacaoDecisao", "id": "D8", "personagem": "Caio" },
+              { "tipo": "fala", "personagem": "Caio", "expressao": "envergonhado", "texto": "Posso falar uma coisa? Eu não dormi essa noite. Fico vendo a cena e achando que piorei tudo." },
+              { "tipo": "decisao", "id": "D9" },
+              { "tipo": "reacaoDecisao", "id": "D9", "personagem": "Caio" },
+              { "tipo": "moverNpc", "nome": "caio", "ponto": "saida", "modo": "sair" },
+              { "tipo": "esconderNpc", "nome": "caio" },
+              { "tipo": "flag", "nome": "d5-a-d9-feitas" },
+              { "tipo": "liberar", "ponto": "prancheta" },
+              { "tipo": "fala", "personagem": "Renata", "expressao": "preocupada", "texto": "Sabe que eu também fiquei mexida? Socorri o Jonas com a mão firme, mas cheguei em casa e desabei." },
+              { "tipo": "fala", "personagem": "Renata", "expressao": "neutra", "texto": "Quem socorre também sente. Hoje cedo conversei com o pessoal do ambulatório e já estou melhor." },
+              { "tipo": "fala", "personagem": "Renata", "expressao": "feliz", "texto": "Este ano a SIPAT vai falar muito disso: saúde mental. Cuidar da cabeça também é segurança." },
+              { "tipo": "fala", "personagem": "Renata", "expressao": "neutra", "texto": "Agora preciso registrar o acidente oficialmente. Me passa o formulário certo ali da prancheta?" },
+              { "tipo": "objetivo", "ponto": "prancheta", "texto": "Pegue o formulário certo na prancheta" }
+            ] }
+          ],
+          "aoInteragir:prancheta": [
+            { "tipo": "se", "flag": "d10-d11-feitas", "passos": [], "senao": [
+              { "tipo": "decisao", "id": "D10" },
+              { "tipo": "fala", "personagem": "Renata", "expressao": "neutra", "texto": "Obrigada." },
+              { "tipo": "fala", "personagem": "Renata", "expressao": "seria", "texto": "O pior é que esse vazamento já tinha sido visto dois dias antes. Todo mundo achou que alguém já tinha avisado." },
+              { "tipo": "fala", "personagem": "Renata", "expressao": "neutra", "texto": "Se fosse você que visse aquele vazamento, o que faria?" },
+              { "tipo": "decisao", "id": "D11" },
+              { "tipo": "fala", "personagem": "Renata", "expressao": "neutra", "texto": "Hum. Guarda isso, que a gente vai precisar já já." },
+              { "tipo": "flag", "nome": "d10-d11-feitas" },
+              { "tipo": "fala", "personagem": "Renata", "expressao": "neutra", "texto": "Vamos pro posto. Antes de ligar qualquer coisa, a gente faz a inspeção de início de turno." },
+              { "tipo": "liberar", "ponto": "saida" },
+              { "tipo": "objetivo", "ponto": "saida", "texto": "Vá até o posto do Jonas" }
+            ] }
+          ],
+          "aoTentarSair": [
+            { "tipo": "se", "flag": "d10-d11-feitas", "passos": [], "senao": [] }
+          ],
+          "aoSair": [
+            { "tipo": "fala", "personagem": "{nome}", "expressao": "neutra", "pensando": true, "texto": "Inspeção de início de turno… olho vivo." },
+            { "tipo": "irPara", "capitulo": 5, "area": "posto" }
+          ]
+        }
+      }
+    },
+    "5": {
+      "area": "posto",
+      "mapas": {
+        "posto": {
+          "aoEntrar": [ { "tipo": "objetivo", "ponto": "renata", "texto": "Fale com a Renata no posto" } ],
+          "aoInteragir:renata": [
+            { "tipo": "se", "flag": "inspecao-concluida", "passos": [
+              { "tipo": "irPara", "capitulo": 6, "area": "posto" }
+            ], "senao": [
+              { "tipo": "fala", "personagem": "Renata", "expressao": "neutra", "texto": "Esse é o posto. Toca em tudo que você achar que está errado. Quando terminar, me avisa." },
+              { "tipo": "acao", "acao": "inspecao" },
+              { "tipo": "fala", "personagem": "Renata", "expressao": "neutra", "texto": "Anotado. Isso tudo vai para a CIPA. Vou chamar o Diego." },
+              { "tipo": "flag", "nome": "inspecao-concluida" },
+              { "tipo": "irPara", "capitulo": 6, "area": "posto" }
+            ] }
+          ]
+        }
+      }
+    },
+    "6": {
+      "area": "posto",
+      "mapas": {
+        "posto": {
+          "aoEntrar": [
+            { "tipo": "mostrarNpc", "nome": "diego" },
+            { "tipo": "moverNpc", "nome": "diego", "ponto": "diego" },
+            { "tipo": "fala", "personagem": "Diego", "expressao": "feliz", "texto": "E aí, {nome}! Sou o Diego, da CIPA. A Renata disse que você fez a inspeção. Me conta o que achou." },
+            { "tipo": "acao", "acao": "relatoTablet" },
+            { "tipo": "fala", "personagem": "Diego", "expressao": "neutra", "texto": "Valeu pelo relato. É assim que se evita o próximo acidente: alguém vê, alguém avisa." },
+            { "tipo": "fala", "personagem": "Diego", "expressao": "feliz", "texto": "E é exatamente isso que a SIPAT discute. É a Semana Interna de Prevenção de Acidentes do Trabalho, que a CIPA organiza todo ano com o SESMT. E este ano o foco principal é saúde mental: estresse, pressão e pedir ajuda sem vergonha." },
+            { "tipo": "fala", "personagem": "Diego", "expressao": "neutra", "texto": "Este ano vai de 16 a 19 de novembro." },
+            { "tipo": "fala", "personagem": "Diego", "expressao": "neutra", "texto": "Lembra do quadro lá na entrada? Te espero nas atividades!" },
+            { "tipo": "fala", "personagem": "Diego", "expressao": "feliz", "texto": "Te espero lá! E qualquer condição insegura, fala com qualquer cipeiro." },
+            { "tipo": "flag", "nome": "relato-concluido" },
+            { "tipo": "objetivo", "ponto": "maquina", "texto": "Ligue a máquina" },
+            { "tipo": "irPara", "capitulo": 7, "area": "posto" }
+          ]
+        }
+      }
+    },
+    "7": {
+      "area": "posto",
+      "mapas": {
+        "posto": {
+          "aoEntrar": [
+            { "tipo": "esconderNpc", "nome": "diego" },
+            { "tipo": "objetivo", "ponto": "maquina", "texto": "Ligue a máquina" },
+            { "tipo": "fala", "personagem": "Renata", "expressao": "feliz", "texto": "Agora sim. Posto inspecionado, riscos reportados. Pode começar, {nome}." }
+          ],
+          "aoInteragir:maquina": [
+            { "tipo": "se", "resposta": "D11", "passos": [
+              { "tipo": "acao", "acao": "ligarMaquina" },
+              { "tipo": "mensagem", "remetente": "Jonas", "texto": "Oi! A Renata me contou que você achou de onde vinha o vazamento. Valeu mesmo! E coloca o protetor direito, que aquelas máquinas não perdoam.", "exigirAbertura": true },
+              { "tipo": "fala", "personagem": "{nome}", "expressao": "feliz", "pensando": true, "texto": "Primeiro dia… e já deu pra fazer diferença." },
+              { "tipo": "acao", "acao": "fade", "direcao": "escurecer" },
+              { "tipo": "acao", "acao": "resultado" }
+            ], "senao": [
+              { "tipo": "acao", "acao": "ligarMaquina" },
+              { "tipo": "mensagem", "remetente": "Jonas", "texto": "Oi! A Renata me contou que você achou de onde vinha o vazamento. Valeu mesmo! E coloca o protetor direito, que aquelas máquinas não perdoam.", "exigirAbertura": true },
+              { "tipo": "fala", "personagem": "{nome}", "expressao": "feliz", "pensando": true, "texto": "Primeiro dia… e já deu pra fazer diferença." },
+              { "tipo": "acao", "acao": "fade", "direcao": "escurecer" },
+              { "tipo": "acao", "acao": "resultado" }
+            ] }
+          ]
+        }
+      }
+    }
+  }
+}

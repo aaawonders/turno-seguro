@@ -1,0 +1,110 @@
+{
+  "menu": {
+    "titulo": "MISSÃO",
+    "tituloPrincipal": "Turno Seguro",
+    "logoAlt": "Missão Turno Seguro",
+    "emblemaAlt": "Emblema da Missão Turno Seguro",
+    "subtitulo": "SIPAT 2026",
+    "novoJogo": "Novo jogo",
+    "continuar": "Continuar",
+    "creditos": "Créditos",
+    "confirmarNovo": "Começar do zero? O progresso salvo será apagado.",
+    "marcaNidec": "Nidec"
+  },
+  "selecao": {
+    "titulo": "Escolha seu personagem",
+    "julia": "Júlia",
+    "lucas": "Lucas",
+    "comecar": "Começar",
+    "voltar": "Voltar"
+  },
+  "dialogo": {
+    "continuar": "Continuar",
+    "retrato": "Retrato de {personagem}",
+    "pensando": " (pensando)"
+  },
+  "decisao": {
+    "aConfirmar": "Informação a confirmar",
+    "confirmar": "Confirmar seleção"
+  },
+  "mensagem": {
+    "continuar": "Continuar"
+  },
+  "celular": {
+    "horaCapitulo1": "05:42",
+    "appAgora": "Papo · agora",
+    "online": "online",
+    "digitando": "digitando…",
+    "hoje": "HOJE",
+    "campo": "Mensagem",
+    "fechar": "Fechar",
+    "retrato": "Retrato de {contato}",
+    "cameraAlt": "Câmera",
+    "telefoneAlt": "Telefone",
+    "enviarAlt": "Enviar mensagem"
+  },
+  "calendario": {
+    "titulo": "Programação da SIPAT · 16 a 19/11",
+    "pensamentoPassado": "{semana} teve {tema}. Perdi… vou pedir o material pro Diego.",
+    "pensamentoHoje": "Hoje tem {tema}, às {horario}, no {local}. Já vou me programar.",
+    "pensamentoFuturo": "Na {semana} tem {tema}. Vou anotar.",
+    "antesDaSemana": "A SIPAT começa segunda, dia 16. Vou ficar de olho.",
+    "depoisDaSemana": "A SIPAT já passou, mas o que ela ensina vale o ano todo.",
+    "aConfirmar": "Programação a confirmar",
+    "voltar": "Voltar ao jogo",
+    "abrirTodos": "Abra os quatro cartões para continuar ({abertos}/4)."
+  },
+  "inspecao": {
+    "instrucao": "Toque nos pontos que você considera inseguros.",
+    "finalizar": "Finalizar inspeção",
+    "itensMarcados": "{quantidade} itens marcados"
+  },
+  "objetivo": {
+    "dicaInicial": "Siga o objetivo e a seta laranja",
+    "inspecao": "Marque os riscos · {tempo}"
+  },
+  "relato": {
+    "titulo": "Relato da inspeção",
+    "tabletAlt": "Tablet usado para registrar a inspeção",
+    "nenhum": "Nenhum item marcado.",
+    "continuar": "Continuar",
+    "tablet": "Tablet do Diego"
+  },
+  "cones": {
+    "confirmar": "Confirmar cones",
+    "contador": "{selecionados}/{total}"
+  },
+  "resultado": {
+    "pontos": "{pontos} / {maximo} pontos",
+    "tituloErros": "O que você deixou passar",
+    "estrelaCheia": "Estrela conquistada",
+    "estrelaVazia": "Estrela"
+  },
+  "creditos": {
+    "titulo": "Créditos",
+    "voltar": "Voltar"
+  },
+  "audio": {
+    "ligar": "Ligar áudio",
+    "desligar": "Desligar áudio"
+  },
+  "controles": {
+    "interagirAlt": "Interagir",
+    "legendaTeclado": "Setas/WASD andar · Espaço/E interagir"
+  },
+  "tutorial": {
+    "andarToque": "Arraste aqui para andar",
+    "andarTeclado": "Use as setas ou WASD para andar",
+    "objetivo": "Seu objetivo fica aqui em cima. Siga a seta laranja!",
+    "seta": "A seta mostra para onde ir.",
+    "interagirToque": "Quando aparecer o !, toque aqui para interagir",
+    "interagirTeclado": "Aperte Espaço ou E para interagir",
+    "pular": "Pular tutorial",
+    "alvoBotao": "Botão de ação",
+    "alvoPersonagem": "Personagem"
+  },
+  "jogo": {
+    "saibaAntesDeSair": "Ainda há uma etapa para concluir antes de seguir.",
+    "abrirCartoes": "Abra os quatro cartões para continuar ({abertos}/4)."
+  }
+}

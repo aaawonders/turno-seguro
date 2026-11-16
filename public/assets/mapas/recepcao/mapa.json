@@ -1,0 +1,610 @@
+{
+ "type": "map",
+ "version": "1.10",
+ "tiledversion": "1.10.2",
+ "orientation": "orthogonal",
+ "renderorder": "right-down",
+ "infinite": false,
+ "width": 1,
+ "height": 1,
+ "tilewidth": 672,
+ "tileheight": 529,
+ "nextlayerid": 5,
+ "nextobjectid": 22,
+ "layers": [
+  {
+   "id": 1,
+   "name": "caminhavel",
+   "type": "objectgroup",
+   "visible": true,
+   "opacity": 1,
+   "x": 0,
+   "y": 0,
+   "draworder": "topdown",
+   "objects": [
+    {
+     "id": 1,
+     "name": "",
+     "type": "",
+     "x": 0,
+     "y": 0,
+     "rotation": 0,
+     "visible": true,
+     "width": 0,
+     "height": 0,
+     "polygon": [
+      {
+       "x": 9,
+       "y": 422
+      },
+      {
+       "x": 150,
+       "y": 222
+      },
+      {
+       "x": 395,
+       "y": 246
+      },
+      {
+       "x": 480,
+       "y": 246
+      },
+      {
+       "x": 486,
+       "y": 298
+      },
+      {
+       "x": 566,
+       "y": 313
+      },
+      {
+       "x": 650,
+       "y": 327
+      },
+      {
+       "x": 550,
+       "y": 497
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "name": "colisao",
+   "type": "objectgroup",
+   "visible": true,
+   "opacity": 1,
+   "x": 0,
+   "y": 0,
+   "draworder": "topdown",
+   "objects": [
+    {
+     "id": 2,
+     "name": "",
+     "type": "",
+     "x": 0,
+     "y": 0,
+     "rotation": 0,
+     "visible": true,
+     "width": 0,
+     "height": 0,
+     "polygon": [
+      {
+       "x": 394,
+       "y": 297
+      },
+      {
+       "x": 438,
+       "y": 301
+      },
+      {
+       "x": 438,
+       "y": 291
+      },
+      {
+       "x": 394,
+       "y": 287
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "name": "catraca-facial",
+     "type": "",
+     "x": 0,
+     "y": 0,
+     "rotation": 0,
+     "visible": true,
+     "width": 0,
+     "height": 0,
+     "polygon": [
+      {
+       "x": 438,
+       "y": 303
+      },
+      {
+       "x": 486,
+       "y": 305
+      },
+      {
+       "x": 486,
+       "y": 295
+      },
+      {
+       "x": 438,
+       "y": 293
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "name": "",
+     "type": "",
+     "x": 356,
+     "y": 238,
+     "width": 40,
+     "height": 54,
+     "rotation": 0,
+     "visible": true
+    },
+    {
+     "id": 5,
+     "name": "",
+     "type": "",
+     "x": 0,
+     "y": 0,
+     "rotation": 0,
+     "visible": true,
+     "width": 0,
+     "height": 0,
+     "polygon": [
+      {
+       "x": 156,
+       "y": 369
+      },
+      {
+       "x": 181,
+       "y": 350
+      },
+      {
+       "x": 338,
+       "y": 366
+      },
+      {
+       "x": 334,
+       "y": 400
+      },
+      {
+       "x": 294,
+       "y": 438
+      },
+      {
+       "x": 169,
+       "y": 431
+      },
+      {
+       "x": 156,
+       "y": 400
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "name": "",
+     "type": "",
+     "x": 0,
+     "y": 0,
+     "rotation": 0,
+     "visible": true,
+     "width": 0,
+     "height": 0,
+     "polygon": [
+      {
+       "x": 247,
+       "y": 259
+      },
+      {
+       "x": 281,
+       "y": 247
+      },
+      {
+       "x": 325,
+       "y": 256
+      },
+      {
+       "x": 316,
+       "y": 275
+      },
+      {
+       "x": 256,
+       "y": 275
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "name": "",
+     "type": "",
+     "x": 0,
+     "y": 0,
+     "rotation": 0,
+     "visible": true,
+     "width": 0,
+     "height": 0,
+     "polygon": [
+      {
+       "x": 275,
+       "y": 206
+      },
+      {
+       "x": 356,
+       "y": 212
+      },
+      {
+       "x": 357,
+       "y": 247
+      },
+      {
+       "x": 300,
+       "y": 249
+      },
+      {
+       "x": 275,
+       "y": 231
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "name": "",
+     "type": "",
+     "x": 168,
+     "y": 215,
+     "width": 42,
+     "height": 17,
+     "rotation": 0,
+     "visible": true
+    },
+    {
+     "id": 9,
+     "name": "",
+     "type": "",
+     "x": 32,
+     "y": 398,
+     "width": 34,
+     "height": 16,
+     "rotation": 0,
+     "visible": true
+    },
+    {
+     "id": 10,
+     "name": "",
+     "type": "",
+     "x": 0,
+     "y": 0,
+     "rotation": 0,
+     "visible": true,
+     "width": 0,
+     "height": 0,
+     "polygon": [
+      {
+       "x": 524,
+       "y": 359
+      },
+      {
+       "x": 544,
+       "y": 341
+      },
+      {
+       "x": 619,
+       "y": 347
+      },
+      {
+       "x": 609,
+       "y": 403
+      },
+      {
+       "x": 588,
+       "y": 406
+      },
+      {
+       "x": 528,
+       "y": 397
+      }
+     ]
+    },
+    {
+     "id": 11,
+     "name": "",
+     "type": "",
+     "x": 0,
+     "y": 0,
+     "rotation": 0,
+     "visible": true,
+     "width": 0,
+     "height": 0,
+     "polygon": [
+      {
+       "x": 476,
+       "y": 450
+      },
+      {
+       "x": 533,
+       "y": 452
+      },
+      {
+       "x": 533,
+       "y": 469
+      },
+      {
+       "x": 476,
+       "y": 467
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name": "oclusores",
+   "type": "objectgroup",
+   "visible": true,
+   "opacity": 1,
+   "x": 0,
+   "y": 0,
+   "draworder": "topdown",
+   "objects": [
+    {
+     "id": 12,
+     "name": "mesa",
+     "type": "",
+     "x": 155,
+     "y": 305,
+     "width": 184,
+     "height": 137,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "baseY",
+       "type": "int",
+       "value": 400
+      },
+      {
+       "name": "imagem",
+       "type": "string",
+       "value": "oclusores/mesa.png"
+      }
+     ]
+    },
+    {
+     "id": 13,
+     "name": "mesinha",
+     "type": "",
+     "x": 245,
+     "y": 239,
+     "width": 81,
+     "height": 37,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "baseY",
+       "type": "int",
+       "value": 268
+      },
+      {
+       "name": "imagem",
+       "type": "string",
+       "value": "oclusores/mesinha.png"
+      }
+     ]
+    },
+    {
+     "id": 14,
+     "name": "grade-esquerda",
+     "type": "",
+     "x": 392,
+     "y": 234,
+     "width": 45,
+     "height": 62,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "baseY",
+       "type": "int",
+       "value": 292
+      },
+      {
+       "name": "imagem",
+       "type": "string",
+       "value": "oclusores/grade-esquerda.png"
+      }
+     ]
+    },
+    {
+     "id": 15,
+     "name": "catraca-facial",
+     "type": "",
+     "x": 441,
+     "y": 231,
+     "width": 44,
+     "height": 73,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "baseY",
+       "type": "int",
+       "value": 300
+      },
+      {
+       "name": "imagem",
+       "type": "string",
+       "value": "oclusores/catraca-facial.png"
+      }
+     ]
+    },
+    {
+     "id": 16,
+     "name": "mesa-verde",
+     "type": "",
+     "x": 524,
+     "y": 325,
+     "width": 96,
+     "height": 82,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "baseY",
+       "type": "int",
+       "value": 400
+      },
+      {
+       "name": "imagem",
+       "type": "string",
+       "value": "oclusores/mesa-verde.png"
+      }
+     ]
+    },
+    {
+     "id": 17,
+     "name": "extintores",
+     "type": "",
+     "x": 476,
+     "y": 384,
+     "width": 58,
+     "height": 86,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "baseY",
+       "type": "int",
+       "value": 462
+      },
+      {
+       "name": "imagem",
+       "type": "string",
+       "value": "oclusores/extintores.png"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name": "pontos",
+   "type": "objectgroup",
+   "visible": true,
+   "opacity": 1,
+   "x": 0,
+   "y": 0,
+   "draworder": "topdown",
+   "objects": [
+    {
+     "id": 18,
+     "name": "chegada",
+     "type": "",
+     "x": 150,
+     "y": 300,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "chegada"
+      }
+     ]
+    },
+    {
+     "id": 19,
+     "name": "banner-sipat",
+     "type": "",
+     "x": 560,
+     "y": 326,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "pensamento"
+      },
+      {
+       "name": "raio",
+       "type": "int",
+       "value": 36
+      }
+     ]
+    },
+    {
+     "id": 20,
+     "name": "catraca-facial",
+     "type": "",
+     "x": 462,
+     "y": 314,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "interacao"
+      },
+      {
+       "name": "raio",
+       "type": "int",
+       "value": 28
+      }
+     ]
+    },
+    {
+     "id": 21,
+     "name": "saida",
+     "type": "",
+     "x": 438,
+     "y": 262,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "saida"
+      },
+      {
+       "name": "raio",
+       "type": "int",
+       "value": 22
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "tilesets": [],
+ "properties": [
+  {
+   "name": "imagem",
+   "type": "string",
+   "value": "fundo.png"
+  }
+ ]
+}

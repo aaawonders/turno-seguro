@@ -1,0 +1,116 @@
+{
+  "D1": {
+    "tipo": "armario",
+    "pergunta": "Escolha dois itens para entrar na área.",
+    "opcoes": [
+      { "id": "plug", "texto": "Protetor auricular tipo plug", "correta": true, "imagem": "epi-plug.png" },
+      { "id": "calcado", "texto": "Calçado de segurança com biqueira", "correta": true, "imagem": "epi-calcado.png" },
+      { "id": "fone", "texto": "Fone de ouvido bluetooth", "correta": false, "imagem": "epi-fone.png" },
+      { "id": "tenis", "texto": "Tênis", "correta": false, "imagem": "epi-tenis.png" },
+      { "id": "algodao", "texto": "Algodão", "correta": false, "imagem": "epi-algodao.png" }
+    ],
+    "resultado": "Fone e algodão não reduzem o ruído, e tênis não protege contra queda de peças. Na área das máquinas de usinagem, use protetor auricular e calçado com biqueira.",
+    "fala": "Com isso aí eu não te deixo entrar na área. Dá uma olhada de novo."
+  },
+  "D2": {
+    "pergunta": "Coloca o plug aí que eu quero ver.",
+    "opcoes": [
+      { "id": "direto", "texto": "Empurrar o plug direto no ouvido", "correta": false },
+      { "id": "correto", "texto": "Enrolar entre os dedos, puxar a orelha para cima e para trás, inserir e segurar até expandir", "correta": true },
+      { "id": "ponta", "texto": "Colocar só a pontinha, pra não incomodar", "correta": false }
+    ],
+    "resultado": "Plug mal colocado quase não reduz o ruído. Com meses acima de 85 dB, a perda auditiva é permanente. O certo é enrolar, puxar a orelha para cima e para trás, inserir e segurar até expandir."
+  },
+  "D3": {
+    "tipo": "itens",
+    "pergunta": "Pega uma caixa de protetor pra deixar no posto.",
+    "opcoes": [
+      { "id": "ca", "texto": "Caixa lacrada com o número do CA impresso", "correta": true, "imagem": "caixa-com-ca.png" },
+      { "id": "sem-ca", "texto": "Caixa sem número de CA", "correta": false, "imagem": "caixa-sem-ca.png" },
+      { "id": "avulso", "texto": "Saquinho avulso sem embalagem", "correta": false, "imagem": "saquinho.png" }
+    ],
+    "resultado": "Sem CA (Certificado de Aprovação), não há garantia de que o protetor protege. Confira sempre o número do CA na embalagem."
+  },
+  "D4": {
+    "tipo": "cones",
+    "pergunta": "Escolha dois pontos para cercar a poça inteira, inclusive o lado da faixa de pedestres.",
+    "resultado": "A poça ficou com um lado aberto para o corredor de pedestres. Isolamento incompleto é quase o mesmo que não isolar: alguém pode escorregar no mesmo lugar."
+  },
+  "D5": {
+    "pergunta": "Quando eu vi o Jonas no chão, o que eu devia ter feito primeiro?",
+    "opcoes": [
+      { "id": "correr", "texto": "Correr até ele, cada segundo conta.", "correta": false },
+      { "id": "seguranca", "texto": "Olhar se o local era seguro, por causa do óleo, e chamar a brigada.", "correta": true },
+      { "id": "levantar", "texto": "Levantar ele logo do chão.", "correta": false }
+    ],
+    "reacoes": {
+      "seguranca": "Faz sentido. Eu quase caí no mesmo óleo.",
+      "outro": "Então foi mais ou menos o que eu fiz?"
+    },
+    "resultado": "Correr ou levantar a vítima sem olhar o local transforma quem socorre na segunda vítima, e mover alguém que caiu pode piorar uma lesão. Primeiro a cena segura, depois a brigada."
+  },
+  "D6": {
+    "pergunta": "E pra chamar a brigada? Eu nem sei como.",
+    "opcoes": [
+      { "id": "ramal", "texto": "Pelo ramal de emergência [ramal] ou pelo rádio do líder.", "correta": true },
+      { "id": "grupo", "texto": "Manda mensagem no grupo do setor.", "correta": false },
+      { "id": "ambulatorio", "texto": "Vai correndo até o ambulatório buscar alguém.", "correta": false }
+    ],
+    "resultado": "Mensagem em grupo pode demorar a ser vista, e correr atrás de ajuda deixa a vítima sozinha. O ramal de emergência aciona a brigada na hora.",
+    "aConfirmar": true
+  },
+  "D7": {
+    "pergunta": "E o sangue? Eu peguei o que tinha na mão.",
+    "opcoes": [
+      { "id": "estopa", "texto": "A estopa serve, o importante é estancar.", "correta": false },
+      { "id": "gaze", "texto": "Pressão firme e contínua com gaze ou pano limpo, usando luvas.", "correta": true },
+      { "id": "alcool", "texto": "Lavar o corte com álcool primeiro.", "correta": false }
+    ],
+    "resultado": "Estopa suja leva graxa e sujeira para o corte, e álcool não estanca sangramento. Pressão direta com material limpo, usando luvas, segura a maioria dos sangramentos."
+  },
+  "D8": {
+    "pergunta": "E levar ele andando até o ambulatório, foi errado?",
+    "opcoes": [
+      { "id": "levar", "texto": "Foi certo, quanto antes chegar, melhor.", "correta": false },
+      { "id": "brigada", "texto": "Quem decide se pode mover é a brigada. Se precisar, ela chama o SAMU, no 192.", "correta": true },
+      { "id": "policia", "texto": "Devia ter chamado a polícia, no 190.", "correta": false }
+    ],
+    "reacoes": { "outro": "Valeu, {nome}. Da próxima vez eu sei o que fazer." },
+    "reacoesExpressoes": { "outro": "feliz" },
+    "resultado": "Quem caiu pode ter lesões que não aparecem, e andar pode piorar. Quem avalia é a brigada, que aciona o SAMU (192) se precisar."
+  },
+  "D9": {
+    "pergunta": "Posso falar uma coisa? Eu não dormi essa noite. Fico vendo a cena e achando que piorei tudo.",
+    "opcoes": [
+      { "id": "esquecer", "texto": "Bola pra frente, Caio. Esquece isso e foca no trabalho.", "correta": false },
+      { "id": "acolher", "texto": "É normal ficar abalado depois de algo assim. Conversa com alguém: a Renata, o ambulatório ou o [canal de apoio da Nidec].", "correta": true },
+      { "id": "culpar", "texto": "Se você tivesse feito o treinamento, não estaria assim.", "correta": false }
+    ],
+    "reacoes": {
+      "acolher": "É… acho que vou conversar, sim. Valeu.",
+      "outro": "Tá… vou tentar."
+    },
+    "reacoesExpressoes": { "acolher": "neutra", "outro": "preocupada" },
+    "resultado": "Mandar esquecer ou culpar faz a pessoa guardar o sofrimento sozinha, e isso pesa no sono, na atenção e na segurança de todos. Acolher e indicar quem pode ajudar é o caminho.",
+    "aConfirmar": true
+  },
+  "D10": {
+    "tipo": "itens",
+    "pergunta": "Me passa o formulário certo ali da prancheta?",
+    "opcoes": [
+      { "id": "cat", "texto": "CAT, Comunicação de Acidente de Trabalho", "correta": true, "imagem": "folha-cat.png" },
+      { "id": "aso", "texto": "ASO, Atestado de Saúde Ocupacional", "correta": false, "imagem": "folha-aso.png" },
+      { "id": "fispq", "texto": "FISPQ, ficha de segurança de produto químico", "correta": false, "imagem": "folha-fispq.png" }
+    ],
+    "resultado": "Acidente de trabalho é registrado na CAT. Ela garante os direitos do trabalhador e alimenta as estatísticas que ajudam a prevenir novos acidentes."
+  },
+  "D11": {
+    "pergunta": "Se fosse você que visse aquele vazamento, o que faria?",
+    "opcoes": [
+      { "id": "avisar", "texto": "Avisaria na hora o líder, o SESMT ou a CIPA, mesmo achando que alguém já avisou.", "correta": true },
+      { "id": "desviar", "texto": "Desviaria e tomaria cuidado.", "correta": false },
+      { "id": "esperar", "texto": "Esperaria a manutenção perceber.", "correta": false }
+    ],
+    "resultado": "Desviar ou esperar foi exatamente o que levou ao acidente do Jonas. Condição insegura se reporta na hora. Avisar nunca é exagero."
+  }
+}

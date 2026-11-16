@@ -1,0 +1,357 @@
+{
+ "type": "map",
+ "version": "1.10",
+ "tiledversion": "1.10.2",
+ "orientation": "orthogonal",
+ "renderorder": "right-down",
+ "infinite": false,
+ "width": 1,
+ "height": 1,
+ "tilewidth": 571,
+ "tileheight": 783,
+ "nextlayerid": 5,
+ "nextobjectid": 12,
+ "layers": [
+  {
+   "id": 1,
+   "name": "caminhavel",
+   "type": "objectgroup",
+   "visible": true,
+   "opacity": 1,
+   "x": 0,
+   "y": 0,
+   "draworder": "topdown",
+   "objects": [
+    {
+     "id": 1,
+     "name": "",
+     "type": "",
+     "x": 0,
+     "y": 0,
+     "rotation": 0,
+     "visible": true,
+     "width": 0,
+     "height": 0,
+     "polygon": [
+      {
+       "x": 6,
+       "y": 712
+      },
+      {
+       "x": 25,
+       "y": 702
+      },
+      {
+       "x": 106,
+       "y": 612
+      },
+      {
+       "x": 116,
+       "y": 598
+      },
+      {
+       "x": 150,
+       "y": 603
+      },
+      {
+       "x": 188,
+       "y": 572
+      },
+      {
+       "x": 188,
+       "y": 552
+      },
+      {
+       "x": 234,
+       "y": 509
+      },
+      {
+       "x": 262,
+       "y": 468
+      },
+      {
+       "x": 300,
+       "y": 352
+      },
+      {
+       "x": 384,
+       "y": 258
+      },
+      {
+       "x": 400,
+       "y": 219
+      },
+      {
+       "x": 432,
+       "y": 219
+      },
+      {
+       "x": 520,
+       "y": 228
+      },
+      {
+       "x": 553,
+       "y": 244
+      },
+      {
+       "x": 200,
+       "y": 769
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "name": "colisao",
+   "type": "objectgroup",
+   "visible": true,
+   "opacity": 1,
+   "x": 0,
+   "y": 0,
+   "draworder": "topdown",
+   "objects": [
+    {
+     "id": 2,
+     "name": "",
+     "type": "",
+     "x": 355,
+     "y": 282,
+     "width": 36,
+     "height": 19,
+     "rotation": 0,
+     "visible": true
+    },
+    {
+     "id": 3,
+     "name": "",
+     "type": "",
+     "x": 529,
+     "y": 234,
+     "width": 25,
+     "height": 12,
+     "rotation": 0,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name": "oclusores",
+   "type": "objectgroup",
+   "visible": true,
+   "opacity": 1,
+   "x": 0,
+   "y": 0,
+   "draworder": "topdown",
+   "objects": []
+  },
+  {
+   "id": 4,
+   "name": "pontos",
+   "type": "objectgroup",
+   "visible": true,
+   "opacity": 1,
+   "x": 0,
+   "y": 0,
+   "draworder": "topdown",
+   "objects": [
+    {
+     "id": 4,
+     "name": "chegada",
+     "type": "",
+     "x": 112,
+     "y": 700,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "chegada"
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "name": "porta-vestiario",
+     "type": "",
+     "x": 412,
+     "y": 228,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "interacao"
+      },
+      {
+       "name": "raio",
+       "type": "int",
+       "value": 26
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "name": "marcos",
+     "type": "",
+     "x": 192,
+     "y": 604,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "npc"
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "name": "armario-epi",
+     "type": "",
+     "x": 140,
+     "y": 618,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "interacao"
+      },
+      {
+       "name": "raio",
+       "type": "int",
+       "value": 28
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "name": "estante-caixas",
+     "type": "",
+     "x": 226,
+     "y": 538,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "interacao"
+      },
+      {
+       "name": "raio",
+       "type": "int",
+       "value": 28
+      }
+     ]
+    },
+    {
+     "id": 9,
+     "name": "quadro-rh",
+     "type": "",
+     "x": 322,
+     "y": 358,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "pensamento"
+      },
+      {
+       "name": "raio",
+       "type": "int",
+       "value": 40
+      }
+     ]
+    },
+    {
+     "id": 10,
+     "name": "porta-cozinha",
+     "type": "",
+     "x": 492,
+     "y": 238,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "interacao"
+      },
+      {
+       "name": "raio",
+       "type": "int",
+       "value": 26
+      }
+     ]
+    },
+    {
+     "id": 11,
+     "name": "catraca-fabrica",
+     "type": "",
+     "x": 72,
+     "y": 664,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "saida"
+      },
+      {
+       "name": "bloqueado",
+       "type": "bool",
+       "value": true
+      },
+      {
+       "name": "raio",
+       "type": "int",
+       "value": 26
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "tilesets": [],
+ "properties": [
+  {
+   "name": "imagem",
+   "type": "string",
+   "value": "fundo.png"
+  }
+ ]
+}

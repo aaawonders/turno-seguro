@@ -1,0 +1,522 @@
+{
+ "type": "map",
+ "version": "1.10",
+ "tiledversion": "1.10.2",
+ "orientation": "orthogonal",
+ "renderorder": "right-down",
+ "infinite": false,
+ "width": 1,
+ "height": 1,
+ "tilewidth": 695,
+ "tileheight": 1003,
+ "nextlayerid": 5,
+ "nextobjectid": 19,
+ "layers": [
+  {
+   "id": 1,
+   "name": "caminhavel",
+   "type": "objectgroup",
+   "visible": true,
+   "opacity": 1,
+   "x": 0,
+   "y": 0,
+   "draworder": "topdown",
+   "objects": [
+    {
+     "id": 1,
+     "name": "",
+     "type": "",
+     "x": 0,
+     "y": 0,
+     "rotation": 0,
+     "visible": true,
+     "width": 0,
+     "height": 0,
+     "polygon": [
+      {
+       "x": 216,
+       "y": 907
+      },
+      {
+       "x": 398,
+       "y": 253
+      },
+      {
+       "x": 530,
+       "y": 253
+      },
+      {
+       "x": 468,
+       "y": 428
+      },
+      {
+       "x": 489,
+       "y": 432
+      },
+      {
+       "x": 489,
+       "y": 505
+      },
+      {
+       "x": 436,
+       "y": 555
+      },
+      {
+       "x": 318,
+       "y": 880
+      },
+      {
+       "x": 284,
+       "y": 926
+      },
+      {
+       "x": 221,
+       "y": 926
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "name": "colisao",
+   "type": "objectgroup",
+   "visible": true,
+   "opacity": 1,
+   "x": 0,
+   "y": 0,
+   "draworder": "topdown",
+   "objects": []
+  },
+  {
+   "id": 3,
+   "name": "oclusores",
+   "type": "objectgroup",
+   "visible": true,
+   "opacity": 1,
+   "x": 0,
+   "y": 0,
+   "draworder": "topdown",
+   "objects": [
+    {
+     "id": 2,
+     "name": "grade-baixo-1",
+     "type": "",
+     "x": 310,
+     "y": 652,
+     "width": 63,
+     "height": 249,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "baseY",
+       "type": "int",
+       "value": 815
+      },
+      {
+       "name": "imagem",
+       "type": "string",
+       "value": "oclusores/grade-baixo-1.png"
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "name": "grade-baixo-2",
+     "type": "",
+     "x": 370,
+     "y": 478,
+     "width": 67,
+     "height": 251,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "baseY",
+       "type": "int",
+       "value": 640
+      },
+      {
+       "name": "imagem",
+       "type": "string",
+       "value": "oclusores/grade-baixo-2.png"
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "name": "grade-cima",
+     "type": "",
+     "x": 462,
+     "y": 170,
+     "width": 79,
+     "height": 267,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "baseY",
+       "type": "int",
+       "value": 340
+      },
+      {
+       "name": "imagem",
+       "type": "string",
+       "value": "oclusores/grade-cima.png"
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "name": "sala-lideres",
+     "type": "",
+     "x": 373,
+     "y": 534,
+     "width": 293,
+     "height": 301,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "baseY",
+       "type": "int",
+       "value": 822
+      },
+      {
+       "name": "imagem",
+       "type": "string",
+       "value": "oclusores/sala-lideres.png"
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "name": "maquina",
+     "type": "",
+     "x": 492,
+     "y": 330,
+     "width": 190,
+     "height": 189,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "baseY",
+       "type": "int",
+       "value": 500
+      },
+      {
+       "name": "imagem",
+       "type": "string",
+       "value": "oclusores/maquina.png"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name": "pontos",
+   "type": "objectgroup",
+   "visible": true,
+   "opacity": 1,
+   "x": 0,
+   "y": 0,
+   "draworder": "topdown",
+   "objects": [
+    {
+     "id": 7,
+     "name": "chegada",
+     "type": "",
+     "x": 262,
+     "y": 900,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "chegada"
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "name": "renata",
+     "type": "",
+     "x": 372,
+     "y": 590,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "npc"
+      }
+     ]
+    },
+    {
+     "id": 9,
+     "name": "poca",
+     "type": "",
+     "x": 405,
+     "y": 490,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "objeto"
+      }
+     ]
+    },
+    {
+     "id": 10,
+     "name": "cone-1",
+     "type": "",
+     "x": 380,
+     "y": 530,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "interacao"
+      },
+      {
+       "name": "certo",
+       "type": "bool",
+       "value": true
+      },
+      {
+       "name": "raio",
+       "type": "int",
+       "value": 14
+      }
+     ]
+    },
+    {
+     "id": 11,
+     "name": "cone-2",
+     "type": "",
+     "x": 435,
+     "y": 525,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "interacao"
+      },
+      {
+       "name": "certo",
+       "type": "bool",
+       "value": true
+      },
+      {
+       "name": "raio",
+       "type": "int",
+       "value": 14
+      }
+     ]
+    },
+    {
+     "id": 12,
+     "name": "cone-3",
+     "type": "",
+     "x": 395,
+     "y": 455,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "interacao"
+      },
+      {
+       "name": "raio",
+       "type": "int",
+       "value": 14
+      }
+     ]
+    },
+    {
+     "id": 13,
+     "name": "cone-4",
+     "type": "",
+     "x": 448,
+     "y": 455,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "interacao"
+      },
+      {
+       "name": "raio",
+       "type": "int",
+       "value": 14
+      }
+     ]
+    },
+    {
+     "id": 14,
+     "name": "cone-5",
+     "type": "",
+     "x": 372,
+     "y": 490,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "interacao"
+      },
+      {
+       "name": "raio",
+       "type": "int",
+       "value": 14
+      }
+     ]
+    },
+    {
+     "id": 15,
+     "name": "cone-6",
+     "type": "",
+     "x": 470,
+     "y": 492,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "interacao"
+      },
+      {
+       "name": "raio",
+       "type": "int",
+       "value": 14
+      }
+     ]
+    },
+    {
+     "id": 16,
+     "name": "caio",
+     "type": "",
+     "x": 425,
+     "y": 580,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "npc"
+      }
+     ]
+    },
+    {
+     "id": 17,
+     "name": "prancheta",
+     "type": "",
+     "x": 345,
+     "y": 772,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "interacao"
+      },
+      {
+       "name": "raio",
+       "type": "int",
+       "value": 36
+      }
+     ]
+    },
+    {
+     "id": 18,
+     "name": "saida",
+     "type": "",
+     "x": 480,
+     "y": 465,
+     "width": 0,
+     "height": 0,
+     "point": true,
+     "rotation": 0,
+     "visible": true,
+     "properties": [
+      {
+       "name": "tipo",
+       "type": "string",
+       "value": "saida"
+      },
+      {
+       "name": "bloqueado",
+       "type": "bool",
+       "value": true
+      },
+      {
+       "name": "raio",
+       "type": "int",
+       "value": 20
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "tilesets": [],
+ "properties": [
+  {
+   "name": "imagem",
+   "type": "string",
+   "value": "fundo.png"
+  }
+ ]
+}

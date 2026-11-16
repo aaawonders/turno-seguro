@@ -1,0 +1,15 @@
+{
+  "transicaoMs": 300,
+  "proximos": {"quarto":"portaria", "portaria":"recepcao", "recepcao":"vestiario", "vestiario":"corredor-a", "corredor-a":"corredor-b", "corredor-b":"posto"},
+  "gatilhos": {
+    "quarto:despertador": [{"tipo":"fala","personagem":"{nome} (pensando)","texto":"5h30… Primeiro dia no turno da manhã. Bora!"}],
+    "portaria:speaker": [
+      {"tipo":"fala","personagem":"Sr. Antônio","texto":"Bom dia! Você é quem vai cobrir o Jonas hoje, né? A Renata avisou."},
+      {"tipo":"fala","personagem":"Sr. Antônio","texto":"Foi feio ontem, viu. Mas ele está bem, ainda bem."},
+      {"tipo":"fala","personagem":"Sr. Antônio","texto":"Passa o crachá na catraca e vai direto pro vestiário. O Marcos está te esperando."},
+      {"tipo":"liberar","ponto":"catraca"}
+    ],
+    "recepcao:catraca-facial": [{"tipo":"liberar","ponto":"catraca-facial"}],
+    "recepcao:banner-sipat": [{"tipo":"fala","personagem":"{nome} (pensando)","texto":"Banner da SIPAT… semana que vem já? Quero ver a programação."}]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "personagem": "Renata",
+  "texto": "Teste de interação: a caixa de diálogo abriu!",
+  "interface": {
+    "instrucoes": "Use as setas ou WASD para andar. Ação: Espaço, E, Enter ou o botão na tela para interagir.",
+    "botaoAcao": "Ação",
+    "botaoDialogo": "Continuar",
+    "avisoRotacao": "Gire o celular para jogar",
+    "depuracao": "FPS: {fps} · direção: {x}, {y}"
+  },
+  "camera": { "suavizacao": 0.22 },
+  "jogador": {
+    "velocidade": 112,
+    "aceleracao": 1400,
+    "desaceleracao": 2200,
+    "toleranciaDirecao": 0.18,
+    "limiteDelta": 50,
+    "velocidadeMinimaAnimacao": 3,
+    "fpsAnimacao": 8,
+    "tamanhoQuadro": 64,
+    "escala": 2,
+    "deslocamentoBasePes": 58,
+    "alinhamentoSprite": { "centroX": 32, "baseY": 61 }
+  },
+  "npc": {
+    "tamanhoQuadro": 64,
+    "escala": 2,
+    "distanciaInteracao": 40,
+    "marcador": {
+      "deslocamentoY": -144,
+      "escala": 2
+    }
+  },
+  "controles": {
+    "zonaMortaJoystick": 0.15
+  }
+}

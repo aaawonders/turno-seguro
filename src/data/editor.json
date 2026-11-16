@@ -1,0 +1,20 @@
+{
+  "titulo": "Editor de mapas",
+  "ferramentas": {"c": "Caminhável (C)", "o": "Colisão (O)", "u": "Oclusor (U)", "p": "Ponto (P)", "v": "Selecionar / mover (V)"},
+  "ajuda": "Enter fecha polígono · Shift + arrastar: retângulo de colisão · Delete apaga seleção · Esc cancela / volta do teste · Ctrl+Z desfaz · Ctrl+Shift+Z refaz · Roda: zoom 1–4× · Espaço + arrastar ou botão do meio: pan",
+  "oclusor": "Arraste o retângulo e depois clique para definir a linha da base (baseY).",
+  "rascunho": "Existe um rascunho mais novo que o arquivo. Ele foi restaurado; use Reabrir arquivo para descartá-lo.",
+  "teste": "Teste ativo: setas / WASD para andar. Esc volta ao editor.",
+  "semChegada": "Marque chegada em uma posição válida antes de testar.",
+  "semCaminhavel": "Falta o polígono caminhável.",
+  "faltamPontos": "Pontos não marcados: ",
+  "fora": "Ponto fora do caminhável: ",
+  "salvo": "Mapa salvo no projeto.",
+  "exportado": "mapa.json exportado.",
+  "erroSalvar": "Não foi possível salvar: ",
+  "semFundo": "Fundo ausente; usando placeholder 512×768.",
+  "semMapa": "Sem mapa.json; comece a marcação.",
+  "rascunhoFalhou": "Não foi possível gravar o rascunho neste navegador.",
+  "botoes": {"desfazer":"Desfazer", "refazer":"Refazer", "testar":"Testar", "voltar":"Voltar ao editor", "exportar":"Exportar", "salvar":"Salvar no projeto", "reabrir":"Reabrir arquivo", "grade":"Grade", "aplicar":"Aplicar propriedades"},
+  "campos": {"area":"Área", "pontos":"Pontos", "raio":"Raio (px)", "propriedades":"Propriedades (JSON)", "base":"baseY (px)", "selecao":"Seleção", "nenhuma":"Nenhuma", "erroPropriedades":"Use um objeto JSON válido e valores numéricos finitos."}
+}

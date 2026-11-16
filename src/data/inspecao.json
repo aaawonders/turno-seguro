@@ -1,0 +1,14 @@
+{
+  "itens": [
+    { "id": "risco-oleo", "nome": "Vazamento de óleo na máquina", "tipo": "risco", "resultado": "O vazamento que derrubou o Jonas continua. Sem reportar, o próximo acidente é questão de tempo." },
+    { "id": "risco-extintor", "nome": "Extintor obstruído por caixas", "tipo": "risco", "resultado": "Na emergência, cada segundo para chegar ao extintor conta." },
+    { "id": "risco-operador", "nome": "Operador do posto vizinho sem protetor", "tipo": "risco", "resultado": "Ruído acima de 85 dB sem protetor causa perda auditiva permanente." },
+    { "id": "risco-pedestre", "nome": "Pedestre fora da faixa, no corredor de empilhadeira", "tipo": "risco", "resultado": "Atropelamento por empilhadeira costuma ser grave. Pedestre anda na faixa." },
+    { "id": "risco-cabo", "nome": "Cabo atravessando a passagem", "tipo": "risco", "resultado": "Cabo solto no caminho é tropeço certo." },
+    { "id": "risco-painel", "nome": "Painel elétrico aberto", "tipo": "risco", "resultado": "Painel aberto expõe a choque elétrico. Só eletricista autorizado mexe." },
+    { "id": "risco-saida", "nome": "Saída de emergência bloqueada por pallets", "tipo": "risco", "resultado": "Numa evacuação, uma rota bloqueada pode custar vidas." },
+    { "id": "falso-carrinho", "nome": "Carrinho dentro da área demarcada", "tipo": "falso", "resultado": "Estava no lugar certo: a área demarcada é para isso." },
+    { "id": "falso-extintor", "nome": "Extintor sinalizado e livre", "tipo": "falso", "resultado": "Estava em ordem: sinalizado e com acesso livre." },
+    { "id": "falso-estante", "nome": "Caixas organizadas na prateleira", "tipo": "falso", "resultado": "Estavam organizadas e no lugar." }
+  ]
+}

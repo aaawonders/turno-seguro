@@ -1,0 +1,6 @@
+2026/11/15-20:13:29.969 4954 Reusing MANIFEST C:\Users\a.silva\Desktop\turno-seguro\artifacts\interface\perfil\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2026/11/15-20:13:29.971 4954 Recovering log #26
+2026/11/15-20:13:29.972 4954 Reusing old log C:\Users\a.silva\Desktop\turno-seguro\artifacts\interface\perfil\Default\EdgeCoupons/coupons_data.db/000026.log 
+2026/11/15-20:13:30.161 7d88 Level-0 table #30: started
+2026/11/15-20:13:30.175 7d88 Level-0 table #30: 683376 bytes OK
+2026/11/15-20:13:30.180 7d88 Delete type=0 #26

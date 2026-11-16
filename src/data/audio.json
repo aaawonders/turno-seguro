@@ -1,0 +1,39 @@
+{
+  "musicas": {
+    "t1-tema": { "arquivo": "/assets/audio/musica/t1-tema.mp3", "volume": 0.45, "loop": true },
+    "t2-fabrica": { "arquivo": "/assets/audio/musica/t2-fabrica.mp3", "volume": 0.45, "loop": true },
+    "t3-ontem": { "arquivo": "/assets/audio/musica/t3-ontem.mp3", "volume": 0.45, "loop": true },
+    "t4-olho-vivo": { "arquivo": "/assets/audio/musica/t4-olho-vivo.mp3", "volume": 0.45, "loop": true },
+    "t5-sipat": { "arquivo": "/assets/audio/musica/t5-sipat.mp3", "volume": 0.45, "loop": true },
+    "j1-vitoria": { "arquivo": "/assets/audio/musica/j1-vitoria.mp3", "volume": 0.6, "loop": false },
+    "j2-tempo-esgotado": { "arquivo": "/assets/audio/musica/j2-tempo-esgotado.mp3", "volume": 0.6, "loop": false }
+  },
+  "ambientes": {
+    "ambiente-fabrica": { "arquivo": "/assets/audio/sfx/ambiente-fabrica.mp3", "volume": 0.25, "loop": true }
+  },
+  "efeitos": {
+    "blip": { "arquivo": "/assets/audio/sfx/blip.mp3", "volume": 0.25, "loop": false, "pitchMin": 0.95, "pitchMax": 1.05, "semSobrepor": true },
+    "passo-1": { "arquivo": "/assets/audio/sfx/passo-1.mp3", "volume": 0.35, "loop": false, "pitchMin": 0.92, "pitchMax": 1.08 },
+    "passo-2": { "arquivo": "/assets/audio/sfx/passo-2.mp3", "volume": 0.35, "loop": false, "pitchMin": 0.92, "pitchMax": 1.08 },
+    "menu": { "arquivo": "/assets/audio/sfx/menu.mp3", "volume": 0.5, "loop": false },
+    "interagir": { "arquivo": "/assets/audio/sfx/interagir.mp3", "volume": 0.5, "loop": false },
+    "escolha": { "arquivo": "/assets/audio/sfx/escolha.mp3", "volume": 0.6, "loop": false },
+    "item": { "arquivo": "/assets/audio/sfx/item.mp3", "volume": 0.6, "loop": false },
+    "marcar": { "arquivo": "/assets/audio/sfx/marcar.mp3", "volume": 0.6, "loop": false },
+    "desmarcar": { "arquivo": "/assets/audio/sfx/desmarcar.mp3", "volume": 0.6, "loop": false },
+    "tique": { "arquivo": "/assets/audio/sfx/tique.mp3", "volume": 0.5, "loop": false },
+    "cartao": { "arquivo": "/assets/audio/sfx/cartao.mp3", "volume": 0.6, "loop": false },
+    "catraca": { "arquivo": "/assets/audio/sfx/catraca.mp3", "volume": 0.7, "loop": false },
+    "despertador": { "arquivo": "/assets/audio/sfx/despertador.mp3", "volume": 0.6, "loop": false },
+    "notificacao": { "arquivo": "/assets/audio/sfx/notificacao.mp3", "volume": 0.7, "loop": false },
+    "trocar-roupa": { "arquivo": "/assets/audio/sfx/trocar-roupa.mp3", "volume": 0.7, "loop": false },
+    "porta": { "arquivo": "/assets/audio/sfx/porta.mp3", "volume": 0.6, "loop": false },
+    "porta-fechar": { "arquivo": "/assets/audio/sfx/porta-fechar.mp3", "volume": 0.4, "loop": false },
+    "estrela": { "arquivo": "/assets/audio/sfx/estrela.mp3", "volume": 0.7, "loop": false }
+  },
+  "fadeMs": 800,
+  "fadeVolumeMs": 180,
+  "volumeMusicaBaixada": 0.15,
+  "passoMs": 300,
+  "intervaloEntreEstrelasMs": 300
+}

@@ -1,0 +1,211 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.11.0",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "width": 16,
+  "height": 24,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "properties": [
+    {
+      "name": "raioPesX",
+      "type": "int",
+      "value": 20
+    },
+    {
+      "name": "raioPesY",
+      "type": "int",
+      "value": 10
+    }
+  ],
+  "infinite": false,
+  "layers": [
+    {
+      "id": 1,
+      "name": "caminhavel",
+      "type": "objectgroup",
+      "draworder": "topdown",
+      "objects": [
+        {
+          "id": 1,
+          "name": "piso-losango",
+          "x": 0,
+          "y": 0,
+          "width": 448,
+          "height": 224,
+          "polygon": [
+            {
+              "x": 256,
+              "y": 260
+            },
+            {
+              "x": 480,
+              "y": 372
+            },
+            {
+              "x": 256,
+              "y": 484
+            },
+            {
+              "x": 32,
+              "y": 372
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "colisao",
+      "type": "objectgroup",
+      "draworder": "topdown",
+      "objects": [
+        {
+          "id": 2,
+          "name": "caixa-1",
+          "x": 158,
+          "y": 342,
+          "width": 32,
+          "height": 16,
+          "polygon": [
+            {
+              "x": 32,
+              "y": 0
+            },
+            {
+              "x": 64,
+              "y": 16
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 0,
+              "y": 16
+            }
+          ],
+          "properties": [
+            {
+              "name": "tipo",
+              "type": "string",
+              "value": "caixa"
+            },
+            {
+              "name": "altura",
+              "type": "int",
+              "value": 58
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "caixa-2",
+          "x": 252,
+          "y": 386,
+          "width": 40,
+          "height": 20,
+          "polygon": [
+            {
+              "x": 40,
+              "y": 0
+            },
+            {
+              "x": 80,
+              "y": 20
+            },
+            {
+              "x": 40,
+              "y": 40
+            },
+            {
+              "x": 0,
+              "y": 20
+            }
+          ],
+          "properties": [
+            {
+              "name": "tipo",
+              "type": "string",
+              "value": "caixa"
+            },
+            {
+              "name": "altura",
+              "type": "int",
+              "value": 44
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "caixa-3",
+          "x": 336,
+          "y": 338,
+          "width": 36,
+          "height": 18,
+          "polygon": [
+            {
+              "x": 36,
+              "y": 0
+            },
+            {
+              "x": 72,
+              "y": 18
+            },
+            {
+              "x": 36,
+              "y": 36
+            },
+            {
+              "x": 0,
+              "y": 18
+            }
+          ],
+          "properties": [
+            {
+              "name": "tipo",
+              "type": "string",
+              "value": "caixa"
+            },
+            {
+              "name": "altura",
+              "type": "int",
+              "value": 76
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "oclusores",
+      "type": "objectgroup",
+      "draworder": "topdown",
+      "objects": []
+    },
+    {
+      "id": 4,
+      "name": "pontos",
+      "type": "objectgroup",
+      "draworder": "topdown",
+      "objects": [
+        {
+          "id": 6,
+          "name": "chegada",
+          "x": 256,
+          "y": 369,
+          "point": true
+        },
+        {
+          "id": 7,
+          "name": "npc-teste",
+          "x": 410,
+          "y": 372,
+          "point": true
+        }
+      ]
+    }
+  ]
+}

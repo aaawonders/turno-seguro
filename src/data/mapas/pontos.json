@@ -1,0 +1,495 @@
+{
+  "quarto": [
+    {
+      "nome": "chegada",
+      "tipo": "chegada",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "chegada"
+      }
+    },
+    {
+      "nome": "despertador",
+      "tipo": "pensamento",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "pensamento"
+      }
+    },
+    {
+      "nome": "guarda-roupa",
+      "tipo": "interacao",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "interacao"
+      }
+    },
+    {
+      "nome": "escrivaninha",
+      "tipo": "interacao",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "interacao"
+      }
+    },
+    {
+      "nome": "porta",
+      "tipo": "saida",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "saida"
+      }
+    }
+  ],
+  "portaria": [
+    {
+      "nome": "chegada",
+      "tipo": "chegada",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "chegada"
+      }
+    },
+    {
+      "nome": "speaker",
+      "tipo": "interacao",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "interacao"
+      }
+    },
+    {
+      "nome": "catraca",
+      "tipo": "interacao",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "interacao",
+        "bloqueado": true
+      }
+    },
+    {
+      "nome": "saida",
+      "tipo": "saida",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "saida"
+      }
+    }
+  ],
+  "recepcao": [
+    {
+      "nome": "chegada",
+      "tipo": "chegada",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "chegada"
+      }
+    },
+    {
+      "nome": "banner-sipat",
+      "tipo": "pensamento",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "pensamento"
+      }
+    },
+    {
+      "nome": "catraca-facial",
+      "tipo": "interacao",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "interacao"
+      }
+    },
+    {
+      "nome": "saida",
+      "tipo": "saida",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "saida"
+      }
+    }
+  ],
+  "vestiario": [
+    {
+      "nome": "chegada",
+      "tipo": "chegada",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "chegada"
+      }
+    },
+    {
+      "nome": "porta-vestiario",
+      "tipo": "interacao",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "interacao"
+      }
+    },
+    {
+      "nome": "marcos",
+      "tipo": "npc",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "npc"
+      }
+    },
+    {
+      "nome": "armario-epi",
+      "tipo": "interacao",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "interacao"
+      }
+    },
+    {
+      "nome": "estante-caixas",
+      "tipo": "interacao",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "interacao"
+      }
+    },
+    {
+      "nome": "quadro-rh",
+      "tipo": "pensamento",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "pensamento"
+      }
+    },
+    {
+      "nome": "porta-cozinha",
+      "tipo": "interacao",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "interacao"
+      }
+    },
+    {
+      "nome": "catraca-fabrica",
+      "tipo": "saida",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "saida",
+        "bloqueado": true
+      }
+    }
+  ],
+  "corredor-a": [
+    {
+      "nome": "chegada",
+      "tipo": "chegada",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "chegada"
+      }
+    },
+    {
+      "nome": "diego",
+      "tipo": "npc",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "npc"
+      }
+    },
+    {
+      "nome": "quadro-sipat",
+      "tipo": "interacao",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "interacao"
+      }
+    },
+    {
+      "nome": "bebedouro",
+      "tipo": "pensamento",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "pensamento"
+      }
+    },
+    {
+      "nome": "ponto-encontro",
+      "tipo": "pensamento",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "pensamento"
+      }
+    },
+    {
+      "nome": "almoxarifado",
+      "tipo": "interacao",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "interacao"
+      }
+    },
+    {
+      "nome": "saida",
+      "tipo": "saida",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "saida"
+      }
+    }
+  ],
+  "corredor-b": [
+    {
+      "nome": "chegada",
+      "tipo": "chegada",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "chegada"
+      }
+    },
+    {
+      "nome": "renata",
+      "tipo": "npc",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "npc"
+      }
+    },
+    {
+      "nome": "poca",
+      "tipo": "objeto",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "objeto"
+      }
+    },
+    {
+      "nome": "cone-1",
+      "tipo": "interacao",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "interacao",
+        "certo": true
+      }
+    },
+    {
+      "nome": "cone-2",
+      "tipo": "interacao",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "interacao",
+        "certo": true
+      }
+    },
+    {
+      "nome": "cone-3",
+      "tipo": "interacao",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "interacao"
+      }
+    },
+    {
+      "nome": "cone-4",
+      "tipo": "interacao",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "interacao"
+      }
+    },
+    {
+      "nome": "cone-5",
+      "tipo": "interacao",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "interacao"
+      }
+    },
+    {
+      "nome": "cone-6",
+      "tipo": "interacao",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "interacao"
+      }
+    },
+    {
+      "nome": "caio",
+      "tipo": "npc",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "npc"
+      }
+    },
+    {
+      "nome": "prancheta",
+      "tipo": "interacao",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "interacao"
+      }
+    },
+    {
+      "nome": "saida",
+      "tipo": "saida",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "saida",
+        "bloqueado": true
+      }
+    }
+  ],
+  "posto": [
+    {
+      "nome": "chegada",
+      "tipo": "chegada",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "chegada"
+      }
+    },
+    {
+      "nome": "renata",
+      "tipo": "npc",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "npc"
+      }
+    },
+    {
+      "nome": "diego",
+      "tipo": "npc",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "npc"
+      }
+    },
+    {
+      "nome": "maquina",
+      "tipo": "interacao",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "interacao"
+      }
+    },
+    {
+      "nome": "risco-oleo",
+      "tipo": [
+        "objeto",
+        "toque"
+      ],
+      "propriedades": {
+        "raio": 24,
+        "tipo": [
+          "objeto",
+          "toque"
+        ]
+      }
+    },
+    {
+      "nome": "risco-extintor",
+      "tipo": [
+        "objeto",
+        "toque"
+      ],
+      "propriedades": {
+        "raio": 24,
+        "tipo": [
+          "objeto",
+          "toque"
+        ]
+      }
+    },
+    {
+      "nome": "risco-operador",
+      "tipo": [
+        "objeto",
+        "toque"
+      ],
+      "propriedades": {
+        "raio": 24,
+        "tipo": [
+          "objeto",
+          "toque"
+        ]
+      }
+    },
+    {
+      "nome": "risco-pedestre",
+      "tipo": [
+        "objeto",
+        "toque"
+      ],
+      "propriedades": {
+        "raio": 24,
+        "tipo": [
+          "objeto",
+          "toque"
+        ]
+      }
+    },
+    {
+      "nome": "risco-cabo",
+      "tipo": [
+        "objeto",
+        "toque"
+      ],
+      "propriedades": {
+        "raio": 24,
+        "tipo": [
+          "objeto",
+          "toque"
+        ]
+      }
+    },
+    {
+      "nome": "risco-painel",
+      "tipo": [
+        "objeto",
+        "toque"
+      ],
+      "propriedades": {
+        "raio": 24,
+        "tipo": [
+          "objeto",
+          "toque"
+        ]
+      }
+    },
+    {
+      "nome": "risco-saida",
+      "tipo": [
+        "objeto",
+        "toque"
+      ],
+      "propriedades": {
+        "raio": 24,
+        "tipo": [
+          "objeto",
+          "toque"
+        ]
+      }
+    },
+    {
+      "nome": "falso-carrinho",
+      "tipo": "toque",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "toque"
+      }
+    },
+    {
+      "nome": "falso-extintor",
+      "tipo": "toque",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "toque"
+      }
+    },
+    {
+      "nome": "falso-estante",
+      "tipo": "toque",
+      "propriedades": {
+        "raio": 24,
+        "tipo": "toque"
+      }
+    }
+  ]
+}

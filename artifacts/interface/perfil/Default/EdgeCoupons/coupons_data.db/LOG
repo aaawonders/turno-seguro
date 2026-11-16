@@ -1,0 +1,15 @@
+2026/11/15-20:19:06.481 a4c0 Reusing MANIFEST C:\Users\a.silva\Desktop\turno-seguro\artifacts\interface\perfil\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2026/11/15-20:19:06.484 a4c0 Recovering log #29
+2026/11/15-20:19:06.486 a4c0 Reusing old log C:\Users\a.silva\Desktop\turno-seguro\artifacts\interface\perfil\Default\EdgeCoupons/coupons_data.db/000029.log 
+2026/11/15-20:19:06.862 b090 Level-0 table #33: started
+2026/11/15-20:19:06.885 b090 Level-0 table #33: 683376 bytes OK
+2026/11/15-20:19:06.891 b090 Delete type=0 #29
+2026/11/15-20:19:06.893 82fc Compacting 4@0 + 1@1 files
+2026/11/15-20:19:06.939 82fc Generated table #34@0: 3 keys, 683376 bytes
+2026/11/15-20:19:06.940 82fc Compacted 4@0 + 1@1 files => 683376 bytes
+2026/11/15-20:19:07.016 82fc compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/11/15-20:19:07.019 82fc Delete type=2 #21
+2026/11/15-20:19:07.019 82fc Delete type=2 #24
+2026/11/15-20:19:07.019 82fc Delete type=2 #27
+2026/11/15-20:19:07.019 82fc Delete type=2 #30
+2026/11/15-20:19:07.019 82fc Delete type=2 #33
